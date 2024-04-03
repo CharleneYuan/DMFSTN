@@ -1,0 +1,32 @@
+{
+    "scaler": "standard",
+    "feature_dim":1,
+    "input_dim":64,
+    "hidden_dim":64,
+    "output_dim":1,
+
+    "backcast_length":12,
+    "forecast_length":12,
+
+    "input_window":12,
+    "output_window":12,
+    "device":"cuda:0",
+    "hidden_size":64,
+    "num_layers": 1,
+    "dropout": 0.2,
+    "batch_size":64,
+
+    "max_epoch": 300,
+    "learner": "adam",
+    "use_early_stop": true,
+
+    "load_external": true,
+    "add_time_in_day": true,
+    "add_day_in_week": true,
+
+    "learning_rate": 0.001,
+    "lr_decay": true,
+    "lr_scheduler": "multisteplr",
+    "lr_decay_ratio": 0.1,
+    "steps": [40, 80]
+  }
