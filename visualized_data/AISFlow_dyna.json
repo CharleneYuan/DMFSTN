@@ -1,0 +1,2793 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 0,
+                "num": 2.131720123273599,
+                "in_flow": 1.6540349275196895,
+                "out_flow": 1.7664650154091999,
+                "speed": 1.9822911091048754
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.7421875,
+                    53.9140625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 1,
+                "num": 2.1522657230909714,
+                "in_flow": 1.9375642049994293,
+                "out_flow": 1.9821938134916106,
+                "speed": 1.9413167468494903
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.9453125,
+                    53.9140625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 2,
+                "num": 2.1725830384659286,
+                "in_flow": 2.0075333865997034,
+                "out_flow": 2.0099303732450635,
+                "speed": 6.461152383086908
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.1484375,
+                    55.3359375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 3,
+                "num": 7.179773998402009,
+                "in_flow": 6.67948864284899,
+                "out_flow": 6.68188562949435,
+                "speed": 4.975397295708912
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.1484375,
+                    55.4453125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 4,
+                "num": 4.04371647072252,
+                "in_flow": 3.6887341627668073,
+                "out_flow": 3.603355781303504,
+                "speed": 4.420628668659521
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5546875,
+                    53.9140625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 5,
+                "num": 4.15329300308184,
+                "in_flow": 3.601986074649013,
+                "out_flow": 3.660883460792147,
+                "speed": 4.37079487186401
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9609375,
+                    53.8046875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 6,
+                "num": 4.808697637256021,
+                "in_flow": 3.7897500285355554,
+                "out_flow": 3.82365026823422,
+                "speed": 3.8412190475842887
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7578125,
+                    53.9140625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 7,
+                "num": 2.7149868736445613,
+                "in_flow": 2.2796484419586807,
+                "out_flow": 2.266978655404634,
+                "speed": 5.08914013154766
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.3671875,
+                    53.8046875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 8,
+                "num": 6.686108891679032,
+                "in_flow": 4.543887684054332,
+                "out_flow": 4.581897043716471,
+                "speed": 3.2634107343666274
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.1640625,
+                    53.9140625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 9,
+                "num": 3.164478940760187,
+                "in_flow": 2.3545257390708825,
+                "out_flow": 2.5158086976372562,
+                "speed": 3.5721110747794893
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.3671875,
+                    54.0234375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 10,
+                "num": 8.47814176463874,
+                "in_flow": 5.3994977742266865,
+                "out_flow": 5.2608149754594224,
+                "speed": 2.671453410629332
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.3671875,
+                    54.1328125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 11,
+                "num": 10.525967355324735,
+                "in_flow": 7.672411825134117,
+                "out_flow": 7.577217212646958,
+                "speed": 2.1285340516342055
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.671875,
+                    54.2421875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 12,
+                "num": 9.298025339573108,
+                "in_flow": 7.413308982992809,
+                "out_flow": 7.380892592169844,
+                "speed": 2.680789195041162
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.7734375,
+                    54.3515625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 13,
+                "num": 20.324734619335693,
+                "in_flow": 11.713388882547655,
+                "out_flow": 11.505193471064947,
+                "speed": 1.334114989006133
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.1796875,
+                    54.3515625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 14,
+                "num": 19.93653692500856,
+                "in_flow": 18.362059125670587,
+                "out_flow": 18.299166761785184,
+                "speed": 2.5704803686491546
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.1796875,
+                    54.4609375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 15,
+                "num": 3.8036753795228857,
+                "in_flow": 2.966556329186166,
+                "out_flow": 2.9377924894418443,
+                "speed": 2.0301734960981137
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.9765625,
+                    54.5703125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 16,
+                "num": 15.606095194612488,
+                "in_flow": 15.588745576988929,
+                "out_flow": 15.626070083323821,
+                "speed": 3.0946246561957182
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.3828125,
+                    54.4609375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 17,
+                "num": 13.186394247232052,
+                "in_flow": 11.406346307499144,
+                "out_flow": 11.420385800707681,
+                "speed": 3.8554119112027743
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5859375,
+                    54.5703125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 18,
+                "num": 6.330670014838489,
+                "in_flow": 3.5153521287524256,
+                "out_flow": 3.5087318799223834,
+                "speed": 1.6827776635300036
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.9921875,
+                    54.3515625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 19,
+                "num": 4.5731080926834835,
+                "in_flow": 3.6503823764410455,
+                "out_flow": 3.666932998516151,
+                "speed": 3.1227697182030187
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.1953125,
+                    54.3515625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 20,
+                "num": 24.56648784385344,
+                "in_flow": 32.74774569113115,
+                "out_flow": 32.74820226001598,
+                "speed": 2.3134360497043285
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.1953125,
+                    54.5703125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 21,
+                "num": 2.7024312293117223,
+                "in_flow": 2.038694212989385,
+                "out_flow": 2.0457710307042576,
+                "speed": 2.4315309195727544
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.3515625,
+                    54.6796875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 22,
+                "num": 3.4185595251683596,
+                "in_flow": 3.417874671841114,
+                "out_flow": 3.4026937564204998,
+                "speed": 1.7043384950118847
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5546875,
+                    54.6796875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 23,
+                "num": 5.639995434311151,
+                "in_flow": 6.413651409656432,
+                "out_flow": 6.406346307499144,
+                "speed": 1.788122095447095
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.5703125,
+                    54.7890625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 24,
+                "num": 5.383061294372789,
+                "in_flow": 4.07978541262413,
+                "out_flow": 4.082753110375528,
+                "speed": 2.051944933673435
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.5703125,
+                    54.8984375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 25,
+                "num": 7.138112087661226,
+                "in_flow": 4.109348247916905,
+                "out_flow": 4.119506905604383,
+                "speed": 0.9942354942828614
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.7734375,
+                    54.8984375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 26,
+                "num": 14.408629151923297,
+                "in_flow": 4.131834265494806,
+                "out_flow": 4.135486816573451,
+                "speed": 1.0232002101697941
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.453125,
+                    55.4453125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 27,
+                "num": 2.87889510329871,
+                "in_flow": 2.4731195069056042,
+                "out_flow": 2.4792831868508163,
+                "speed": 4.255018060967668
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.5703125,
+                    55.1171875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 28,
+                "num": 4.676292660655176,
+                "in_flow": 3.1886770916562037,
+                "out_flow": 3.200091313776966,
+                "speed": 4.036208591428666
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.7734375,
+                    55.2265625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 29,
+                "num": 3.7019746604268917,
+                "in_flow": 2.6796027850701973,
+                "out_flow": 2.680972491724689,
+                "speed": 2.8018662570607757
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.5703125,
+                    55.4453125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 30,
+                "num": 8.989270631206484,
+                "in_flow": 3.64536011870791,
+                "out_flow": 3.6297226344024653,
+                "speed": 1.3126764261801211
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.9765625,
+                    54.6796875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 31,
+                "num": 4.944184453829472,
+                "in_flow": 3.9407601871932427,
+                "out_flow": 3.929117680630065,
+                "speed": 2.3336244743948154
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.9765625,
+                    54.8984375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 32,
+                "num": 3.8435110147243465,
+                "in_flow": 4.073735874900126,
+                "out_flow": 4.059924666134003,
+                "speed": 4.871098333463117
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.9765625,
+                    55.0078125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 33,
+                "num": 8.47049423581783,
+                "in_flow": 8.246433055587262,
+                "out_flow": 8.25328158885972,
+                "speed": 4.202902673681764
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.1796875,
+                    55.0078125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 34,
+                "num": 6.193471064946924,
+                "in_flow": 3.8332382148156605,
+                "out_flow": 3.8575505079328845,
+                "speed": 2.287972797470911
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5859375,
+                    54.8984375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 35,
+                "num": 5.400410911996348,
+                "in_flow": 3.0296769775139825,
+                "out_flow": 3.01826275539322,
+                "speed": 1.2395386992980975
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5859375,
+                    55.0078125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 36,
+                "num": 11.390023969866453,
+                "in_flow": 10.364113685652322,
+                "out_flow": 10.366624814518891,
+                "speed": 4.68628278881562
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.7890625,
+                    54.6796875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 37,
+                "num": 7.734847620134688,
+                "in_flow": 7.030133546398813,
+                "out_flow": 7.028535555301906,
+                "speed": 5.10399935299339
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.9921875,
+                    54.6796875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 38,
+                "num": 8.12544230110718,
+                "in_flow": 9.183426549480654,
+                "out_flow": 9.188791233877412,
+                "speed": 2.2593069924011155
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.3984375,
+                    54.6796875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 39,
+                "num": 15.468211391393677,
+                "in_flow": 12.773884259787696,
+                "out_flow": 12.779705513069285,
+                "speed": 2.4974367564529976
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.7890625,
+                    54.8984375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 40,
+                "num": 10.54537153293003,
+                "in_flow": 9.217098504736903,
+                "out_flow": 9.220294486930715,
+                "speed": 5.002339575853512
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.9921875,
+                    55.0078125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 41,
+                "num": 6.418331240725944,
+                "in_flow": 5.3080698550393794,
+                "out_flow": 5.303161739527451,
+                "speed": 1.2135843312300658
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.1796875,
+                    55.1171875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 42,
+                "num": 4.605638625727656,
+                "in_flow": 1.8007076817714873,
+                "out_flow": 1.7921470151809153,
+                "speed": 1.7874601167932984
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5859375,
+                    55.4453125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 43,
+                "num": 11.309667846136286,
+                "in_flow": 9.586120305901153,
+                "out_flow": 9.586462732564776,
+                "speed": 4.799981411038137
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.9921875,
+                    55.1171875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 44,
+                "num": 15.820568428261614,
+                "in_flow": 13.437050565003995,
+                "out_flow": 13.459764867024312,
+                "speed": 3.4438867149792345
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.09375,
+                    55.2265625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 45,
+                "num": 3.8690788722748546,
+                "in_flow": 3.560210021687022,
+                "out_flow": 3.528021915306472,
+                "speed": 2.6065644909690975
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.1953125,
+                    55.1171875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 46,
+                "num": 12.630635772172127,
+                "in_flow": 11.255564433283872,
+                "out_flow": 11.261499828786668,
+                "speed": 4.403041718784996
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.9921875,
+                    55.3359375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 47,
+                "num": 3.784613628581212,
+                "in_flow": 1.9205570140394932,
+                "out_flow": 1.9191873073850017,
+                "speed": 2.3412744661581186
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.1953125,
+                    55.3359375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 48,
+                "num": 9.203515580413194,
+                "in_flow": 6.075676292660655,
+                "out_flow": 6.084351101472435,
+                "speed": 1.4112598787914923
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.0078125,
+                    54.1328125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 49,
+                "num": 21.913366054103413,
+                "in_flow": 19.274055473119507,
+                "out_flow": 19.27234333980139,
+                "speed": 2.7245626724034304
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.8046875,
+                    54.40625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 50,
+                "num": 8.455884031503253,
+                "in_flow": 8.031617395274512,
+                "out_flow": 8.0389224974318,
+                "speed": 5.620190391226791
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.2109375,
+                    54.3515625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 51,
+                "num": 18.848875699121105,
+                "in_flow": 18.392763383175435,
+                "out_flow": 18.396758360917705,
+                "speed": 3.0495820941941627
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.0078125,
+                    54.4609375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 52,
+                "num": 24.487044857892936,
+                "in_flow": 21.665905718525284,
+                "out_flow": 21.675265380664307,
+                "speed": 2.434990584949565
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.2109375,
+                    54.4609375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 53,
+                "num": 24.963588631434767,
+                "in_flow": 23.01883346649926,
+                "out_flow": 23.02214359091428,
+                "speed": 2.467943229144287
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.2109375,
+                    54.625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 54,
+                "num": 15.090514781417646,
+                "in_flow": 13.912452916333752,
+                "out_flow": 13.912681200776166,
+                "speed": 3.700058922023333
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.4140625,
+                    54.5703125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 55,
+                "num": 2.5211733820340143,
+                "in_flow": 1.4441273827188676,
+                "out_flow": 1.5035954799680402,
+                "speed": 2.507522755754359
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.2421875,
+                    53.9140625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 56,
+                "num": 2.3374044058897385,
+                "in_flow": 1.9659856180801278,
+                "out_flow": 1.9557128181714416,
+                "speed": 7.718776266410103
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.2421875,
+                    54.2421875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 57,
+                "num": 3.535555301906175,
+                "in_flow": 3.2123045314461818,
+                "out_flow": 3.2370733934482363,
+                "speed": 7.243751421773899
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.0390625,
+                    54.3515625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 58,
+                "num": 2.4198150896016437,
+                "in_flow": 2.0820682570482822,
+                "out_flow": 2.0768177148727314,
+                "speed": 7.357058390344916
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.4453125,
+                    54.5703125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 59,
+                "num": 17.732564775710536,
+                "in_flow": 16.16527793630864,
+                "out_flow": 16.162766807442072,
+                "speed": 3.1404921129239876
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.6171875,
+                    54.6796875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 60,
+                "num": 20.772628695354413,
+                "in_flow": 17.392991667617853,
+                "out_flow": 17.398013925350988,
+                "speed": 2.751167127633466
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.71875,
+                    54.7890625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 61,
+                "num": 16.09804816801735,
+                "in_flow": 14.700490811551193,
+                "out_flow": 14.69101700719096,
+                "speed": 3.465994035031965
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.0234375,
+                    54.7890625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 62,
+                "num": 3.8048168017349617,
+                "in_flow": 3.540235132975688,
+                "out_flow": 3.5406917018605184,
+                "speed": 7.799213127802614
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.8203125,
+                    55.0078125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 63,
+                "num": 2.6346307499143933,
+                "in_flow": 0.9131377696609976,
+                "out_flow": 0.9164478940760187,
+                "speed": 2.4808397054899674
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.2109375,
+                    55.4453125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 64,
+                "num": 3.0756762926606553,
+                "in_flow": 1.4822508846022144,
+                "out_flow": 1.4612487159000114,
+                "speed": 2.8187029463037176
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.4140625,
+                    55.2265625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 65,
+                "num": 14.435224289464673,
+                "in_flow": 12.852528250199748,
+                "out_flow": 12.85583837461477,
+                "speed": 3.8167862500201513
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.0234375,
+                    55.2265625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 66,
+                "num": 15.161054674123958,
+                "in_flow": 12.997945440018263,
+                "out_flow": 12.997374728912225,
+                "speed": 3.6806320470486993
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.6171875,
+                    55.3359375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 67,
+                "num": 2.2425522200662025,
+                "in_flow": 2.1080926834836204,
+                "out_flow": 2.108891679032074,
+                "speed": 7.60508935465975
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.4453125,
+                    54.6796875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 68,
+                "num": 14.64056614541719,
+                "in_flow": 12.905490240840086,
+                "out_flow": 12.912681200776166,
+                "speed": 3.624726017739869
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.140625,
+                    55.0078125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 69,
+                "num": 5.804360232850131,
+                "in_flow": 3.3733592055701402,
+                "out_flow": 3.373815774454971,
+                "speed": 2.3006814719964916
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.2265625,
+                    55.3359375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 70,
+                "num": 11.690788722748545,
+                "in_flow": 10.416961534071453,
+                "out_flow": 10.413879694098847,
+                "speed": 4.242977790924239
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.0390625,
+                    55.1171875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 71,
+                "num": 27.302476886200207,
+                "in_flow": 22.398013925350988,
+                "out_flow": 22.38968154320283,
+                "speed": 2.4552337405780658
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.34375,
+                    55.171875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 72,
+                "num": 4.193242780504509,
+                "in_flow": 1.868622303390024,
+                "out_flow": 1.8568656546056386,
+                "speed": 5.186435770955477
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.6484375,
+                    55.1171875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 73,
+                "num": 3.966213902522543,
+                "in_flow": 4.08651980367538,
+                "out_flow": 4.090172354754023,
+                "speed": 10.006577372728119
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.2421875,
+                    55.3359375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 74,
+                "num": 21.342426663622874,
+                "in_flow": 18.998287866681885,
+                "out_flow": 18.993379751169957,
+                "speed": 2.449877275270145
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.6484375,
+                    55.4453125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 75,
+                "num": 3.2261157402123044,
+                "in_flow": 2.8596050679146217,
+                "out_flow": 2.8333523570368677,
+                "speed": 7.135499304468675
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.6640625,
+                    54.6796875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 76,
+                "num": 2.610432599018377,
+                "in_flow": 2.2197237758246775,
+                "out_flow": 2.240954228969296,
+                "speed": 7.215515540922834
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.8671875,
+                    54.7890625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 77,
+                "num": 2.225659171327474,
+                "in_flow": 2.0286496975231136,
+                "out_flow": 2.026138568656546,
+                "speed": 7.369133314309502
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.3359375,
+                    55.5546875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 78,
+                "num": 2.0423467640680286,
+                "in_flow": 1.8882547654377355,
+                "out_flow": 1.8885971921013582,
+                "speed": 7.542854251012342
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.3359375,
+                    55.6640625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 79,
+                "num": 4.546398812920899,
+                "in_flow": 4.053190275082753,
+                "out_flow": 4.023627439789978,
+                "speed": 6.607706799321276
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9296875,
+                    55.8828125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 80,
+                "num": 2.294372788494464,
+                "in_flow": 2.1075219723775827,
+                "out_flow": 2.116995776737815,
+                "speed": 7.7543781998797074
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.1328125,
+                    55.8828125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 81,
+                "num": 4.443100102727999,
+                "in_flow": 3.9934938933911655,
+                "out_flow": 3.9710078758132634,
+                "speed": 7.271090802939322
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9296875,
+                    56.1015625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 82,
+                "num": 4.144732336491268,
+                "in_flow": 3.7549366510672297,
+                "out_flow": 3.7523113799794543,
+                "speed": 6.6575132034365225
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.1328125,
+                    55.9921875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 83,
+                "num": 5.489555986759503,
+                "in_flow": 4.949891564889853,
+                "out_flow": 4.939048053875128,
+                "speed": 5.833814578048788
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.1328125,
+                    56.1015625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 84,
+                "num": 5.058440817258304,
+                "in_flow": 4.547654377354183,
+                "out_flow": 4.517178404291747,
+                "speed": 6.745178528904079
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.1328125,
+                    56.3203125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 85,
+                "num": 6.141193927633831,
+                "in_flow": 5.589202145873759,
+                "out_flow": 5.584408172583038,
+                "speed": 5.978766206862821
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.3359375,
+                    56.4296875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 86,
+                "num": 2.0816116881634517,
+                "in_flow": 1.8453372902636684,
+                "out_flow": 1.8423695925122703,
+                "speed": 7.912804458863366
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9296875,
+                    56.6484375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 87,
+                "num": 5.570140394932086,
+                "in_flow": 5.017577902065974,
+                "out_flow": 5.019290035384088,
+                "speed": 5.815854631776886
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.5390625,
+                    56.4296875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 88,
+                "num": 8.272685766465015,
+                "in_flow": 2.7934025796141992,
+                "out_flow": 2.754594224403607,
+                "speed": 1.7266373616185753
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.1484375,
+                    56.703125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 89,
+                "num": 6.407944298596051,
+                "in_flow": 5.801963246204771,
+                "out_flow": 5.804816801734962,
+                "speed": 5.4305774031438
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.9453125,
+                    56.7578125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 90,
+                "num": 2.87216071224746,
+                "in_flow": 2.609177034585093,
+                "out_flow": 2.6035840657459195,
+                "speed": 8.022136893768506
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.3359375,
+                    56.9765625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 91,
+                "num": 4.673096678461363,
+                "in_flow": 4.340143819198722,
+                "out_flow": 4.341970094738044,
+                "speed": 7.052897450155202
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.7421875,
+                    56.9765625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 92,
+                "num": 4.587946581440475,
+                "in_flow": 4.157972834151352,
+                "out_flow": 4.161168816345166,
+                "speed": 6.360227948240141
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.1484375,
+                    56.8671875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 93,
+                "num": 3.2172126469581097,
+                "in_flow": 2.9474945782444926,
+                "out_flow": 2.945896587147586,
+                "speed": 7.832331091342561
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.5390625,
+                    57.0859375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 94,
+                "num": 8.843168588060724,
+                "in_flow": 3.784956055244835,
+                "out_flow": 3.7802762241753225,
+                "speed": 1.931588479510297
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.7734375,
+                    55.5546875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 95,
+                "num": 4.402922040862915,
+                "in_flow": 4.228398584636457,
+                "out_flow": 4.258189704371647,
+                "speed": 5.840020815546227
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.9765625,
+                    55.5546875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 96,
+                "num": 3.8680515922839858,
+                "in_flow": 3.478712475744778,
+                "out_flow": 3.4782559068599475,
+                "speed": 6.580160782850699
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5859375,
+                    55.6640625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 97,
+                "num": 5.691701860518205,
+                "in_flow": 3.5116995776737814,
+                "out_flow": 3.5080470265951376,
+                "speed": 4.001067417514348
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5859375,
+                    55.7734375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 98,
+                "num": 13.317315374957197,
+                "in_flow": 12.12977970551307,
+                "out_flow": 12.132404976600844,
+                "speed": 4.393479201092453
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.7890625,
+                    55.6640625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 99,
+                "num": 4.776167104211848,
+                "in_flow": 2.8273028193128638,
+                "out_flow": 2.8154320283072707,
+                "speed": 3.784779519766218
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.9921875,
+                    55.6640625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 100,
+                "num": 14.759958908800366,
+                "in_flow": 12.47574477799338,
+                "out_flow": 12.483049880150668,
+                "speed": 4.057266096018876
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.7890625,
+                    55.828125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 101,
+                "num": 11.224175322451774,
+                "in_flow": 10.160598105239128,
+                "out_flow": 10.163794087432942,
+                "speed": 4.355963621844151
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.9921875,
+                    55.8828125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 102,
+                "num": 9.566944412738271,
+                "in_flow": 3.7876954685538182,
+                "out_flow": 3.7936308640566145,
+                "speed": 0.9298167488627892
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.1796875,
+                    56.15625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 103,
+                "num": 5.857322223490469,
+                "in_flow": 6.887569912110489,
+                "out_flow": 6.895103298710193,
+                "speed": 9.236840463011838
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5859375,
+                    56.1015625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 104,
+                "num": 13.61842255450291,
+                "in_flow": 13.957082524825934,
+                "out_flow": 13.959022942586463,
+                "speed": 4.57828149058909
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.9921875,
+                    55.9921875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 105,
+                "num": 9.978427120191759,
+                "in_flow": 11.822052277137313,
+                "out_flow": 11.822622988243351,
+                "speed": 5.5637843350886325
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.1953125,
+                    55.9921875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 106,
+                "num": 5.745120420043374,
+                "in_flow": 4.0202031731537495,
+                "out_flow": 4.024312293117224,
+                "speed": 1.2486535915263046
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.3984375,
+                    55.9921875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 107,
+                "num": 8.131834265494806,
+                "in_flow": 7.631891336605411,
+                "out_flow": 7.630065061066088,
+                "speed": 5.6549020033324755
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.1953125,
+                    56.2109375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 108,
+                "num": 3.5531332039721493,
+                "in_flow": 1.9997717155575847,
+                "out_flow": 1.9266065517634974,
+                "speed": 3.903849082195201
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5546875,
+                    57.0859375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 109,
+                "num": 7.0749914393334095,
+                "in_flow": 3.763953886542632,
+                "out_flow": 3.736217326789179,
+                "speed": 4.001856064434748
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.9921875,
+                    56.4296875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 110,
+                "num": 2.2933455085035956,
+                "in_flow": 1.8996689875584978,
+                "out_flow": 1.8989841342312521,
+                "speed": 6.165095833132202
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5859375,
+                    56.8671875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 111,
+                "num": 4.330784157059696,
+                "in_flow": 2.4658144047483166,
+                "out_flow": 2.4749457824449266,
+                "speed": 4.158124045073056
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.3828125,
+                    56.9765625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 112,
+                "num": 5.6294943499600505,
+                "in_flow": 1.6607693185709393,
+                "out_flow": 1.6528935053076133,
+                "speed": 1.492897817023437
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.9765625,
+                    57.0859375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 113,
+                "num": 2.990183768976144,
+                "in_flow": 2.6370277365597534,
+                "out_flow": 2.637484305444584,
+                "speed": 6.670711107390606
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.7890625,
+                    56.8671875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 114,
+                "num": 2.7665791576304075,
+                "in_flow": 2.3855724232393563,
+                "out_flow": 2.3847734276909027,
+                "speed": 6.776412128105982
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.7890625,
+                    56.9765625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 115,
+                "num": 2.348019632462048,
+                "in_flow": 1.6240155233420843,
+                "out_flow": 1.7474032644675266,
+                "speed": 8.559236288813612
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.046875,
+                    57.8515625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 116,
+                "num": 4.0841228170300194,
+                "in_flow": 3.652665220865198,
+                "out_flow": 3.6600844652436937,
+                "speed": 7.133977724782522
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7578125,
+                    57.6328125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 117,
+                "num": 5.30943956169387,
+                "in_flow": 4.81257847277708,
+                "out_flow": 4.811551192786212,
+                "speed": 5.853143887363818
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.5703125,
+                    57.5234375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 118,
+                "num": 2.4118251341171097,
+                "in_flow": 2.080356123730168,
+                "out_flow": 2.092112772514553,
+                "speed": 7.979889655183872
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.3515625,
+                    57.8515625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 119,
+                "num": 4.1998630293345505,
+                "in_flow": 3.7919187307385003,
+                "out_flow": 3.7839287752539663,
+                "speed": 10.136681534738413
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7578125,
+                    57.8515625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 120,
+                "num": 5.5220865198036755,
+                "in_flow": 4.690218011642506,
+                "out_flow": 4.669329985161511,
+                "speed": 8.949931707014878
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9609375,
+                    57.8515625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 121,
+                "num": 6.054674123958452,
+                "in_flow": 5.25225430886885,
+                "out_flow": 5.23981280675722,
+                "speed": 8.122036916090245
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.1640625,
+                    57.8515625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 122,
+                "num": 5.84476657915763,
+                "in_flow": 3.0227143020203173,
+                "out_flow": 3.0195183198265036,
+                "speed": 3.269070280992857
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5859375,
+                    57.4140625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 123,
+                "num": 8.159228398584636,
+                "in_flow": 5.422212076247003,
+                "out_flow": 5.3903663965300765,
+                "speed": 3.8928562359129453
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.9765625,
+                    57.6328125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 124,
+                "num": 5.1504394475516495,
+                "in_flow": 2.6959251227028878,
+                "out_flow": 2.7039150781874217,
+                "speed": 2.8751739017260225
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5859375,
+                    57.5234375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 125,
+                "num": 4.10044515466271,
+                "in_flow": 1.2334208423695925,
+                "out_flow": 1.2170985047369023,
+                "speed": 1.0269669880619012
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.1953125,
+                    57.3046875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 126,
+                "num": 21.153977856409085,
+                "in_flow": 17.402922040862915,
+                "out_flow": 17.40942814747175,
+                "speed": 2.9184940436154903
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.3984375,
+                    57.46875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 127,
+                "num": 16.84716356580299,
+                "in_flow": 15.137084807670357,
+                "out_flow": 15.137541376555188,
+                "speed": 2.834713847316568
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.1953125,
+                    57.6328125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 128,
+                "num": 25.50884602214359,
+                "in_flow": 15.873986987786783,
+                "out_flow": 15.868736445611232,
+                "speed": 0.9079667871351016
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.5859375,
+                    57.7421875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 129,
+                "num": 30.360118707910058,
+                "in_flow": 27.441045542746263,
+                "out_flow": 27.44732336491268,
+                "speed": 1.909427791641784
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.7890625,
+                    57.796875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 130,
+                "num": 2.354411596849675,
+                "in_flow": 2.1020431457596165,
+                "out_flow": 2.0964501769204427,
+                "speed": 7.192984524829138
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.9921875,
+                    57.9609375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 131,
+                "num": 2.7753681086633946,
+                "in_flow": 1.998744435566716,
+                "out_flow": 1.9949777422668644,
+                "speed": 5.689395086578476
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.1953125,
+                    58.1796875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 132,
+                "num": 3.5352128752425522,
+                "in_flow": 2.670927976258418,
+                "out_flow": 2.6781189361944984,
+                "speed": 3.416265312923621
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.4140625,
+                    55.5546875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 133,
+                "num": 17.313548681657345,
+                "in_flow": 15.086633945896587,
+                "out_flow": 15.072822737130464,
+                "speed": 2.417782203562406
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.6171875,
+                    55.5546875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 134,
+                "num": 2.1765780162081954,
+                "in_flow": 1.3256477571053533,
+                "out_flow": 1.3164022371875357,
+                "speed": 0.8283410777194756
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.4140625,
+                    55.6640625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 135,
+                "num": 25.705170642620704,
+                "in_flow": 16.3637712589887,
+                "out_flow": 16.34025796141993,
+                "speed": 1.217267155229835
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.6171875,
+                    55.6640625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 136,
+                "num": 8.214701518091543,
+                "in_flow": 6.772400410911996,
+                "out_flow": 6.77753681086634,
+                "speed": 5.966661538063101
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.8203125,
+                    55.5546875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 137,
+                "num": 8.43157173838603,
+                "in_flow": 4.212532815888597,
+                "out_flow": 4.21721264695811,
+                "speed": 2.30436361191515
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.0234375,
+                    55.6640625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 138,
+                "num": 19.716242438077845,
+                "in_flow": 16.83951603698208,
+                "out_flow": 16.876155689989726,
+                "speed": 2.554260299205887
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.6171875,
+                    55.7734375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 139,
+                "num": 14.561465586120306,
+                "in_flow": 11.361031845679717,
+                "out_flow": 11.393790663166305,
+                "speed": 3.660688615403722
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.6171875,
+                    55.8828125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 140,
+                "num": 8.416390822965415,
+                "in_flow": 7.524597648670243,
+                "out_flow": 7.529049195297341,
+                "speed": 5.096136584227788
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.8203125,
+                    55.7734375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 141,
+                "num": 11.024312293117225,
+                "in_flow": 8.320625499372218,
+                "out_flow": 8.326218468211392,
+                "speed": 3.679522194797071
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.8203125,
+                    55.8828125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 142,
+                "num": 7.058897386143134,
+                "in_flow": 3.1239584522314803,
+                "out_flow": 3.1106038123501882,
+                "speed": 1.7996032913323825
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.2109375,
+                    56.1015625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 143,
+                "num": 6.043944755164936,
+                "in_flow": 5.196438762698322,
+                "out_flow": 5.204314575961648,
+                "speed": 5.533115029077968
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.0078125,
+                    56.3203125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 144,
+                "num": 24.507704599931515,
+                "in_flow": 15.521173382034014,
+                "out_flow": 15.535897728569799,
+                "speed": 2.018615870523678
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.6171875,
+                    56.046875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 145,
+                "num": 7.749001255564433,
+                "in_flow": 6.621504394475516,
+                "out_flow": 6.629836776623673,
+                "speed": 5.318832350716645
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.4140625,
+                    56.3203125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 146,
+                "num": 8.975345280219154,
+                "in_flow": 7.96347448921356,
+                "out_flow": 7.960164364798539,
+                "speed": 5.49659226341957
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.6015625,
+                    56.4296875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 147,
+                "num": 9.052162995091884,
+                "in_flow": 8.084351101472434,
+                "out_flow": 8.082753110375528,
+                "speed": 5.406504112786827
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.6015625,
+                    56.5390625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 148,
+                "num": 6.479968040178062,
+                "in_flow": 5.860061636799452,
+                "out_flow": 5.863485903435681,
+                "speed": 6.054118121060133
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.2109375,
+                    56.4296875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 149,
+                "num": 6.69341399383632,
+                "in_flow": 5.750827531103755,
+                "out_flow": 5.756192215500514,
+                "speed": 6.380647546487755
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.2109375,
+                    56.5390625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 150,
+                "num": 12.883574934368223,
+                "in_flow": 12.722406118023057,
+                "out_flow": 12.724688962447209,
+                "speed": 4.112709335742671
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.8046875,
+                    56.7578125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 151,
+                "num": 2.0078758132633263,
+                "in_flow": 0.5742495148955599,
+                "out_flow": 0.5740212304531446,
+                "speed": 2.867479702073445
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.8203125,
+                    56.6484375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 152,
+                "num": 4.497203515580413,
+                "in_flow": 3.885857778792375,
+                "out_flow": 3.8825476543773543,
+                "speed": 6.078767951910378
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.2109375,
+                    56.8671875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 153,
+                "num": 12.800365255107865,
+                "in_flow": 11.585093025910284,
+                "out_flow": 11.58429403036183,
+                "speed": 4.245516527728033
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.6015625,
+                    57.0859375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 154,
+                "num": 3.9414450405204886,
+                "in_flow": 1.2213217669215843,
+                "out_flow": 1.2182399269489785,
+                "speed": 2.208510820266607
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.2109375,
+                    57.0859375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 155,
+                "num": 13.544458395160369,
+                "in_flow": 12.099532016893049,
+                "out_flow": 12.151695011984934,
+                "speed": 3.359985178093722
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.2578125,
+                    55.6640625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 156,
+                "num": 10.572537381577446,
+                "in_flow": 9.39025225430887,
+                "out_flow": 8.076361145987901,
+                "speed": 4.498295164409305
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.8671875,
+                    55.7734375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 157,
+                "num": 6.124643305558727,
+                "in_flow": 3.6068941901609404,
+                "out_flow": 5.468097249172469,
+                "speed": 7.027981705630113
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.8671875,
+                    55.8828125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 158,
+                "num": 3.195525624928661,
+                "in_flow": 2.8310695126127152,
+                "out_flow": 2.710991895902294,
+                "speed": 3.051415124907997
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.4765625,
+                    55.9921875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 159,
+                "num": 5.335007419244379,
+                "in_flow": 5.5973062435795,
+                "out_flow": 5.595594110261386,
+                "speed": 5.526346786682948
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.8046875,
+                    57.5234375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 160,
+                "num": 24.130806985503938,
+                "in_flow": 13.482250884602214,
+                "out_flow": 13.589886999201005,
+                "speed": 1.659045912629846
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.8046875,
+                    57.6875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 161,
+                "num": 5.199064033786097,
+                "in_flow": 3.2793060152950577,
+                "out_flow": 3.2516835977628125,
+                "speed": 3.613218237683375
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.6015625,
+                    57.7421875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 162,
+                "num": 6.067572194954914,
+                "in_flow": 2.774112544230111,
+                "out_flow": 2.757904348818628,
+                "speed": 1.755256692973981
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.0078125,
+                    57.7421875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 163,
+                "num": 3.3183426549480655,
+                "in_flow": 2.3957310809268346,
+                "out_flow": 2.3945896587147586,
+                "speed": 5.31061075088901
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.6015625,
+                    57.9609375
+                ]
+            }
+        }
+    ]
+}

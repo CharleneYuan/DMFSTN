@@ -1,0 +1,270 @@
+2024-03-23 19:10:33,582 - INFO - Log directory: ./libcity/log
+2024-03-23 19:10:33,582 - INFO - Begin pipeline, task=traffic_state_pred, model_name=AAD, dataset_name=AISFlow, exp_id=AAD_AIS3231600
+2024-03-23 19:10:33,582 - INFO - {'task': 'traffic_state_pred', 'model': 'AAD', 'dataset': 'AISFlow', 'saved_model': True, 'train': False, 'exp_id': 'AAD_AIS3231600', 'seed': 0, 'dataset_class': 'TrafficStatePointDataset', 'executor': 'TrafficStateExecutor', 'evaluator': 'TrafficStateEvaluator', 'scaler': 'standard', 'feature_dim': 1, 'input_dim': 64, 'hidden_dim': 64, 'output_dim': 1, 'backcast_length': 12, 'forecast_length': 12, 'device': device(type='cuda', index=0), 'hidden_size': 64, 'num_layers': 1, 'dropout': 0.2, 'batch_size': 64, 'nb_blocks_per_stack': 1, 'max_epoch': 300, 'learner': 'adam', 'use_early_stop': True, 'load_external': True, 'add_time_in_day': True, 'add_day_in_week': True, 'learning_rate': 0.001, 'lr_decay': True, 'lr_scheduler': 'multisteplr', 'lr_decay_ratio': 0.1, 'steps': [40, 80], 'cache_dataset': True, 'num_workers': 0, 'pad_with_last_sample': True, 'train_rate': 0.7, 'eval_rate': 0.1, 'normal_external': False, 'ext_scaler': 'none', 'input_window': 12, 'output_window': 12, 'gpu': True, 'gpu_id': 0, 'train_loss': 'none', 'epoch': 0, 'weight_decay': 0, 'lr_epsilon': 1e-08, 'lr_beta1': 0.9, 'lr_beta2': 0.999, 'lr_alpha': 0.99, 'lr_momentum': 0, 'step_size': 10, 'lr_T_max': 30, 'lr_eta_min': 0, 'lr_patience': 10, 'lr_threshold': 0.0001, 'clip_grad_norm': False, 'max_grad_norm': 1.0, 'patience': 50, 'log_level': 'INFO', 'log_every': 1, 'load_best_epoch': True, 'hyper_tune': False, 'metrics': ['MAE', 'RMSE', 'masked_MAPE'], 'evaluator_mode': 'single', 'save_mode': ['csv'], 'geo': {'including_types': ['Point'], 'Point': {}}, 'rel': {'including_types': ['geo'], 'geo': {'cost': 'num', 'weight': 'num', 'length_max': 'num', 'width_max': 'num'}}, 'dyna': {'including_types': ['state'], 'state': {'entity_id': 'geo_id', 'num': 'num', 'in_flow': 'num', 'out_flow': 'num', 'speed': 'num'}}, 'data_col': ['num'], 'weight_col': 'cost', 'data_files': ['AISFlow'], 'geo_file': 'AISFlow', 'rel_file': 'AISFlow', 'time_intervals': 14400, 'init_weight_inf_or_zero': 'zero', 'set_weight_link_or_dist': 'link', 'calculate_weight_adj': False, 'weight_adj_epsilon': 0.1}
+2024-03-23 19:10:33,919 - INFO - Loaded file AISFlow.geo, num_nodes=164
+2024-03-23 19:10:33,925 - INFO - set_weight_link_or_dist: link
+2024-03-23 19:10:33,925 - INFO - init_weight_inf_or_zero: zero
+2024-03-23 19:10:33,947 - INFO - Loaded file AISFlow.rel, shape=(164, 164)
+2024-03-23 19:10:33,947 - INFO - Loading ./libcity/cache/dataset_cache/point_based_AISFlow_12_12_0.7_0.1_standard_64_True_True_True_True.npz
+2024-03-23 19:10:36,781 - INFO - train	x: (6117, 12, 164, 9), y: (6117, 12, 164, 9)
+2024-03-23 19:10:36,785 - INFO - eval	x: (873, 12, 164, 9), y: (873, 12, 164, 9)
+2024-03-23 19:10:36,785 - INFO - test	x: (1748, 12, 164, 9), y: (1748, 12, 164, 9)
+2024-03-23 19:10:36,899 - INFO - StandardScaler mean: 8.553017646409911, std: 8.550803670850566
+2024-03-23 19:10:36,899 - INFO - NoneScaler
+2024-03-23 19:10:38,951 - INFO - AAD(
+  (time_day_embedding): Linear(in_features=1, out_features=1, bias=True)
+  (day_week_embedding): Linear(in_features=7, out_features=1, bias=True)
+  (fc_ox): Linear(in_features=1, out_features=64, bias=True)
+  (parameters): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (1): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (2): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (3): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (4): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (5): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (6): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (7): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (8): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (9): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (10): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (11): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (12): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (13): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (14): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (15): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (16): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (17): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (18): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (19): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (20): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (21): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (22): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (23): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (24): Parameter containing: [torch.float32 of size 164x64 (cuda:0)]
+      (25): Parameter containing: [torch.float32 of size 164x64 (cuda:0)]
+      (26): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (27): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (28): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (29): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (30): Parameter containing: [torch.float32 of size 192x768 (cuda:0)]
+      (31): Parameter containing: [torch.float32 of size 3x768 (cuda:0)]
+      (32): Parameter containing: [torch.float32 of size 64x768 (cuda:0)]
+      (33): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (34): Parameter containing: [torch.float32 of size 12x64 (cuda:0)]
+      (35): Parameter containing: [torch.float32 of size 12 (cuda:0)]
+      (36): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (37): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (38): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (39): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (40): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (41): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (42): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (43): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (44): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (45): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (46): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (47): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (48): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (49): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (50): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (51): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (52): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (53): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (54): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (55): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (56): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (57): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (58): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (59): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (60): Parameter containing: [torch.float32 of size 164x64 (cuda:0)]
+      (61): Parameter containing: [torch.float32 of size 164x64 (cuda:0)]
+      (62): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (63): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (64): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (65): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (66): Parameter containing: [torch.float32 of size 1024x768 (cuda:0)]
+      (67): Parameter containing: [torch.float32 of size 16x768 (cuda:0)]
+      (68): Parameter containing: [torch.float32 of size 64x768 (cuda:0)]
+      (69): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (70): Parameter containing: [torch.float32 of size 12x64 (cuda:0)]
+      (71): Parameter containing: [torch.float32 of size 12 (cuda:0)]
+      (72): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (73): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (74): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (75): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (76): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (77): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (78): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (79): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (80): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (81): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (82): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (83): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (84): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (85): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (86): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (87): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (88): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (89): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (90): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (91): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (92): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (93): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (94): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (95): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (96): Parameter containing: [torch.float32 of size 164x64 (cuda:0)]
+      (97): Parameter containing: [torch.float32 of size 164x64 (cuda:0)]
+      (98): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (99): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (100): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (101): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (102): Parameter containing: [torch.float32 of size 1024x768 (cuda:0)]
+      (103): Parameter containing: [torch.float32 of size 16x768 (cuda:0)]
+      (104): Parameter containing: [torch.float32 of size 64x768 (cuda:0)]
+      (105): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (106): Parameter containing: [torch.float32 of size 12x64 (cuda:0)]
+      (107): Parameter containing: [torch.float32 of size 12 (cuda:0)]
+      (108): Parameter containing: [torch.float32 of size 12x16 (cuda:0)]
+      (109): Parameter containing: [torch.float32 of size 12 (cuda:0)]
+      (110): Parameter containing: [torch.float32 of size 12x16 (cuda:0)]
+      (111): Parameter containing: [torch.float32 of size 12 (cuda:0)]
+  )
+)
+2024-03-23 19:10:38,956 - INFO - time_day_embedding.weight	torch.Size([1, 1])	cuda:0	True
+2024-03-23 19:10:38,956 - INFO - time_day_embedding.bias	torch.Size([1])	cuda:0	True
+2024-03-23 19:10:38,956 - INFO - day_week_embedding.weight	torch.Size([1, 7])	cuda:0	True
+2024-03-23 19:10:38,956 - INFO - day_week_embedding.bias	torch.Size([1])	cuda:0	True
+2024-03-23 19:10:38,956 - INFO - fc_ox.weight	torch.Size([64, 1])	cuda:0	True
+2024-03-23 19:10:38,956 - INFO - fc_ox.bias	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,956 - INFO - parameters.0	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,956 - INFO - parameters.1	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,956 - INFO - parameters.2	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,960 - INFO - parameters.3	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,960 - INFO - parameters.4	torch.Size([64, 128])	cuda:0	True
+2024-03-23 19:10:38,960 - INFO - parameters.5	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,960 - INFO - parameters.6	torch.Size([64, 128])	cuda:0	True
+2024-03-23 19:10:38,960 - INFO - parameters.7	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,961 - INFO - parameters.8	torch.Size([64, 128])	cuda:0	True
+2024-03-23 19:10:38,961 - INFO - parameters.9	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,961 - INFO - parameters.10	torch.Size([64, 128])	cuda:0	True
+2024-03-23 19:10:38,961 - INFO - parameters.11	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,961 - INFO - parameters.12	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,962 - INFO - parameters.13	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,962 - INFO - parameters.14	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,962 - INFO - parameters.15	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,962 - INFO - parameters.16	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,962 - INFO - parameters.17	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,962 - INFO - parameters.18	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,963 - INFO - parameters.19	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,963 - INFO - parameters.20	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,963 - INFO - parameters.21	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,963 - INFO - parameters.22	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,963 - INFO - parameters.23	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,963 - INFO - parameters.24	torch.Size([164, 64])	cuda:0	True
+2024-03-23 19:10:38,963 - INFO - parameters.25	torch.Size([164, 64])	cuda:0	True
+2024-03-23 19:10:38,964 - INFO - parameters.26	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,964 - INFO - parameters.27	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,964 - INFO - parameters.28	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,964 - INFO - parameters.29	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,964 - INFO - parameters.30	torch.Size([192, 768])	cuda:0	True
+2024-03-23 19:10:38,964 - INFO - parameters.31	torch.Size([3, 768])	cuda:0	True
+2024-03-23 19:10:38,964 - INFO - parameters.32	torch.Size([64, 768])	cuda:0	True
+2024-03-23 19:10:38,964 - INFO - parameters.33	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,964 - INFO - parameters.34	torch.Size([12, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.35	torch.Size([12])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.36	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.37	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.38	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.39	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.40	torch.Size([64, 128])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.41	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.42	torch.Size([64, 128])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.43	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.44	torch.Size([64, 128])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.45	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.46	torch.Size([64, 128])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.47	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.48	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.49	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.50	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.51	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.52	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.53	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.54	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.55	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.56	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.57	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.58	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.59	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.60	torch.Size([164, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.61	torch.Size([164, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.62	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.63	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.64	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.65	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.66	torch.Size([1024, 768])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.67	torch.Size([16, 768])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.68	torch.Size([64, 768])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.69	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.70	torch.Size([12, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.71	torch.Size([12])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.72	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.73	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.74	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.75	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.76	torch.Size([64, 128])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.77	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.78	torch.Size([64, 128])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.79	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.80	torch.Size([64, 128])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.81	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.82	torch.Size([64, 128])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.83	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.84	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.85	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.86	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.87	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.88	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,965 - INFO - parameters.89	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,970 - INFO - parameters.90	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,970 - INFO - parameters.91	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,970 - INFO - parameters.92	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,970 - INFO - parameters.93	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,970 - INFO - parameters.94	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,970 - INFO - parameters.95	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,970 - INFO - parameters.96	torch.Size([164, 64])	cuda:0	True
+2024-03-23 19:10:38,970 - INFO - parameters.97	torch.Size([164, 64])	cuda:0	True
+2024-03-23 19:10:38,970 - INFO - parameters.98	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,970 - INFO - parameters.99	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,971 - INFO - parameters.100	torch.Size([64, 64])	cuda:0	True
+2024-03-23 19:10:38,971 - INFO - parameters.101	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,971 - INFO - parameters.102	torch.Size([1024, 768])	cuda:0	True
+2024-03-23 19:10:38,971 - INFO - parameters.103	torch.Size([16, 768])	cuda:0	True
+2024-03-23 19:10:38,971 - INFO - parameters.104	torch.Size([64, 768])	cuda:0	True
+2024-03-23 19:10:38,971 - INFO - parameters.105	torch.Size([64])	cuda:0	True
+2024-03-23 19:10:38,971 - INFO - parameters.106	torch.Size([12, 64])	cuda:0	True
+2024-03-23 19:10:38,971 - INFO - parameters.107	torch.Size([12])	cuda:0	True
+2024-03-23 19:10:38,971 - INFO - parameters.108	torch.Size([12, 16])	cuda:0	True
+2024-03-23 19:10:38,972 - INFO - parameters.109	torch.Size([12])	cuda:0	True
+2024-03-23 19:10:38,972 - INFO - parameters.110	torch.Size([12, 16])	cuda:0	True
+2024-03-23 19:10:38,972 - INFO - parameters.111	torch.Size([12])	cuda:0	True
+2024-03-23 19:10:38,972 - INFO - Total parameter numbers: 2196678
+2024-03-23 19:10:38,972 - INFO - You select `adam` optimizer.
+2024-03-23 19:10:39,161 - INFO - You select `multisteplr` lr_scheduler.
+2024-03-23 19:10:39,161 - WARNING - Received none train loss func and will use the loss func defined in the model.
+2024-03-23 19:10:45,968 - INFO - Note that you select the single mode to evaluate!
+2024-03-23 19:10:45,971 - INFO - Evaluate result is saved at ./libcity/cache/AAD_AIS3231600/evaluate_cache\2024_03_23_19_10_45_AAD_AISFlow.csv
+2024-03-23 19:10:45,976 - INFO - 
+         MAE      RMSE  masked_MAPE
+1   2.386370  3.578669     0.410155
+2   2.608053  4.032578     0.438987
+3   2.708559  4.247618     0.456450
+4   2.788889  4.396757     0.463131
+5   2.797807  4.434886     0.458815
+6   2.828447  4.472589     0.461182
+7   2.884653  4.611246     0.470750
+8   2.902798  4.702518     0.463611
+9   2.937014  4.785060     0.464333
+10  2.931199  4.744325     0.464876
+11  2.940395  4.753419     0.464918
+12  2.949511  4.745583     0.465923

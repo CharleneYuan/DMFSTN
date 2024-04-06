@@ -1,0 +1,560 @@
+2024-03-23 18:16:33,485 - INFO - Log directory: ./libcity/log
+2024-03-23 18:16:33,485 - INFO - Begin pipeline, task=traffic_state_pred, model_name=AAD, dataset_name=AISFlow, exp_id=AAD_AIS3231600
+2024-03-23 18:16:33,485 - INFO - {'task': 'traffic_state_pred', 'model': 'AAD', 'dataset': 'AISFlow', 'saved_model': True, 'train': True, 'exp_id': 'AAD_AIS3231600', 'seed': 0, 'dataset_class': 'TrafficStatePointDataset', 'executor': 'TrafficStateExecutor', 'evaluator': 'TrafficStateEvaluator', 'scaler': 'standard', 'feature_dim': 1, 'input_dim': 64, 'hidden_dim': 64, 'output_dim': 1, 'backcast_length': 12, 'forecast_length': 12, 'device': device(type='cuda', index=0), 'hidden_size': 64, 'num_layers': 1, 'dropout': 0.2, 'batch_size': 64, 'nb_blocks_per_stack': 1, 'max_epoch': 300, 'learner': 'adam', 'use_early_stop': True, 'load_external': True, 'add_time_in_day': True, 'add_day_in_week': True, 'learning_rate': 0.001, 'lr_decay': True, 'lr_scheduler': 'multisteplr', 'lr_decay_ratio': 0.1, 'steps': [40, 80], 'cache_dataset': True, 'num_workers': 0, 'pad_with_last_sample': True, 'train_rate': 0.7, 'eval_rate': 0.1, 'normal_external': False, 'ext_scaler': 'none', 'input_window': 12, 'output_window': 12, 'gpu': True, 'gpu_id': 0, 'train_loss': 'none', 'epoch': 0, 'weight_decay': 0, 'lr_epsilon': 1e-08, 'lr_beta1': 0.9, 'lr_beta2': 0.999, 'lr_alpha': 0.99, 'lr_momentum': 0, 'step_size': 10, 'lr_T_max': 30, 'lr_eta_min': 0, 'lr_patience': 10, 'lr_threshold': 0.0001, 'clip_grad_norm': False, 'max_grad_norm': 1.0, 'patience': 50, 'log_level': 'INFO', 'log_every': 1, 'load_best_epoch': True, 'hyper_tune': False, 'metrics': ['MAE', 'RMSE', 'masked_MAPE'], 'evaluator_mode': 'single', 'save_mode': ['csv'], 'geo': {'including_types': ['Point'], 'Point': {}}, 'rel': {'including_types': ['geo'], 'geo': {'cost': 'num', 'weight': 'num', 'length_max': 'num', 'width_max': 'num'}}, 'dyna': {'including_types': ['state'], 'state': {'entity_id': 'geo_id', 'num': 'num', 'in_flow': 'num', 'out_flow': 'num', 'speed': 'num'}}, 'data_col': ['num'], 'weight_col': 'cost', 'data_files': ['AISFlow'], 'geo_file': 'AISFlow', 'rel_file': 'AISFlow', 'time_intervals': 14400, 'init_weight_inf_or_zero': 'zero', 'set_weight_link_or_dist': 'link', 'calculate_weight_adj': False, 'weight_adj_epsilon': 0.1}
+2024-03-23 18:16:33,846 - INFO - Loaded file AISFlow.geo, num_nodes=164
+2024-03-23 18:16:33,863 - INFO - set_weight_link_or_dist: link
+2024-03-23 18:16:33,863 - INFO - init_weight_inf_or_zero: zero
+2024-03-23 18:16:33,880 - INFO - Loaded file AISFlow.rel, shape=(164, 164)
+2024-03-23 18:16:33,880 - INFO - Loading ./libcity/cache/dataset_cache/point_based_AISFlow_12_12_0.7_0.1_standard_64_True_True_True_True.npz
+2024-03-23 18:16:36,517 - INFO - train	x: (6117, 12, 164, 9), y: (6117, 12, 164, 9)
+2024-03-23 18:16:36,517 - INFO - eval	x: (873, 12, 164, 9), y: (873, 12, 164, 9)
+2024-03-23 18:16:36,517 - INFO - test	x: (1748, 12, 164, 9), y: (1748, 12, 164, 9)
+2024-03-23 18:16:36,621 - INFO - StandardScaler mean: 8.553017646409911, std: 8.550803670850566
+2024-03-23 18:16:36,621 - INFO - NoneScaler
+2024-03-23 18:16:38,329 - INFO - AAD(
+  (time_day_embedding): Linear(in_features=1, out_features=1, bias=True)
+  (day_week_embedding): Linear(in_features=7, out_features=1, bias=True)
+  (fc_ox): Linear(in_features=1, out_features=64, bias=True)
+  (parameters): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (1): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (2): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (3): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (4): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (5): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (6): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (7): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (8): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (9): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (10): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (11): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (12): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (13): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (14): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (15): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (16): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (17): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (18): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (19): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (20): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (21): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (22): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (23): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (24): Parameter containing: [torch.float32 of size 164x64 (cuda:0)]
+      (25): Parameter containing: [torch.float32 of size 164x64 (cuda:0)]
+      (26): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (27): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (28): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (29): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (30): Parameter containing: [torch.float32 of size 192x768 (cuda:0)]
+      (31): Parameter containing: [torch.float32 of size 3x768 (cuda:0)]
+      (32): Parameter containing: [torch.float32 of size 64x768 (cuda:0)]
+      (33): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (34): Parameter containing: [torch.float32 of size 12x64 (cuda:0)]
+      (35): Parameter containing: [torch.float32 of size 12 (cuda:0)]
+      (36): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (37): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (38): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (39): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (40): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (41): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (42): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (43): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (44): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (45): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (46): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (47): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (48): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (49): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (50): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (51): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (52): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (53): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (54): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (55): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (56): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (57): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (58): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (59): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (60): Parameter containing: [torch.float32 of size 164x64 (cuda:0)]
+      (61): Parameter containing: [torch.float32 of size 164x64 (cuda:0)]
+      (62): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (63): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (64): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (65): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (66): Parameter containing: [torch.float32 of size 1024x768 (cuda:0)]
+      (67): Parameter containing: [torch.float32 of size 16x768 (cuda:0)]
+      (68): Parameter containing: [torch.float32 of size 64x768 (cuda:0)]
+      (69): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (70): Parameter containing: [torch.float32 of size 12x64 (cuda:0)]
+      (71): Parameter containing: [torch.float32 of size 12 (cuda:0)]
+      (72): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (73): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (74): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (75): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (76): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (77): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (78): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (79): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (80): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (81): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (82): Parameter containing: [torch.float32 of size 64x128 (cuda:0)]
+      (83): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (84): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (85): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (86): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (87): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (88): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (89): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (90): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (91): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (92): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (93): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (94): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (95): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (96): Parameter containing: [torch.float32 of size 164x64 (cuda:0)]
+      (97): Parameter containing: [torch.float32 of size 164x64 (cuda:0)]
+      (98): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (99): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (100): Parameter containing: [torch.float32 of size 64x64 (cuda:0)]
+      (101): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (102): Parameter containing: [torch.float32 of size 1024x768 (cuda:0)]
+      (103): Parameter containing: [torch.float32 of size 16x768 (cuda:0)]
+      (104): Parameter containing: [torch.float32 of size 64x768 (cuda:0)]
+      (105): Parameter containing: [torch.float32 of size 64 (cuda:0)]
+      (106): Parameter containing: [torch.float32 of size 12x64 (cuda:0)]
+      (107): Parameter containing: [torch.float32 of size 12 (cuda:0)]
+      (108): Parameter containing: [torch.float32 of size 12x16 (cuda:0)]
+      (109): Parameter containing: [torch.float32 of size 12 (cuda:0)]
+      (110): Parameter containing: [torch.float32 of size 12x16 (cuda:0)]
+      (111): Parameter containing: [torch.float32 of size 12 (cuda:0)]
+  )
+)
+2024-03-23 18:16:38,335 - INFO - time_day_embedding.weight	torch.Size([1, 1])	cuda:0	True
+2024-03-23 18:16:38,335 - INFO - time_day_embedding.bias	torch.Size([1])	cuda:0	True
+2024-03-23 18:16:38,335 - INFO - day_week_embedding.weight	torch.Size([1, 7])	cuda:0	True
+2024-03-23 18:16:38,335 - INFO - day_week_embedding.bias	torch.Size([1])	cuda:0	True
+2024-03-23 18:16:38,335 - INFO - fc_ox.weight	torch.Size([64, 1])	cuda:0	True
+2024-03-23 18:16:38,335 - INFO - fc_ox.bias	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,335 - INFO - parameters.0	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,336 - INFO - parameters.1	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,336 - INFO - parameters.2	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,336 - INFO - parameters.3	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,336 - INFO - parameters.4	torch.Size([64, 128])	cuda:0	True
+2024-03-23 18:16:38,336 - INFO - parameters.5	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,336 - INFO - parameters.6	torch.Size([64, 128])	cuda:0	True
+2024-03-23 18:16:38,336 - INFO - parameters.7	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,336 - INFO - parameters.8	torch.Size([64, 128])	cuda:0	True
+2024-03-23 18:16:38,336 - INFO - parameters.9	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,337 - INFO - parameters.10	torch.Size([64, 128])	cuda:0	True
+2024-03-23 18:16:38,337 - INFO - parameters.11	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,337 - INFO - parameters.12	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,337 - INFO - parameters.13	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,337 - INFO - parameters.14	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,337 - INFO - parameters.15	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,337 - INFO - parameters.16	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,337 - INFO - parameters.17	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,337 - INFO - parameters.18	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,337 - INFO - parameters.19	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,337 - INFO - parameters.20	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,337 - INFO - parameters.21	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,338 - INFO - parameters.22	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,338 - INFO - parameters.23	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,338 - INFO - parameters.24	torch.Size([164, 64])	cuda:0	True
+2024-03-23 18:16:38,338 - INFO - parameters.25	torch.Size([164, 64])	cuda:0	True
+2024-03-23 18:16:38,338 - INFO - parameters.26	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,338 - INFO - parameters.27	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,338 - INFO - parameters.28	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,339 - INFO - parameters.29	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,339 - INFO - parameters.30	torch.Size([192, 768])	cuda:0	True
+2024-03-23 18:16:38,339 - INFO - parameters.31	torch.Size([3, 768])	cuda:0	True
+2024-03-23 18:16:38,339 - INFO - parameters.32	torch.Size([64, 768])	cuda:0	True
+2024-03-23 18:16:38,339 - INFO - parameters.33	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,339 - INFO - parameters.34	torch.Size([12, 64])	cuda:0	True
+2024-03-23 18:16:38,340 - INFO - parameters.35	torch.Size([12])	cuda:0	True
+2024-03-23 18:16:38,340 - INFO - parameters.36	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,340 - INFO - parameters.37	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,340 - INFO - parameters.38	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,340 - INFO - parameters.39	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,340 - INFO - parameters.40	torch.Size([64, 128])	cuda:0	True
+2024-03-23 18:16:38,340 - INFO - parameters.41	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,340 - INFO - parameters.42	torch.Size([64, 128])	cuda:0	True
+2024-03-23 18:16:38,341 - INFO - parameters.43	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,341 - INFO - parameters.44	torch.Size([64, 128])	cuda:0	True
+2024-03-23 18:16:38,341 - INFO - parameters.45	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,341 - INFO - parameters.46	torch.Size([64, 128])	cuda:0	True
+2024-03-23 18:16:38,341 - INFO - parameters.47	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,341 - INFO - parameters.48	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,341 - INFO - parameters.49	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,341 - INFO - parameters.50	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,341 - INFO - parameters.51	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,341 - INFO - parameters.52	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,341 - INFO - parameters.53	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,341 - INFO - parameters.54	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,342 - INFO - parameters.55	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,342 - INFO - parameters.56	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,342 - INFO - parameters.57	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,342 - INFO - parameters.58	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,342 - INFO - parameters.59	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,342 - INFO - parameters.60	torch.Size([164, 64])	cuda:0	True
+2024-03-23 18:16:38,342 - INFO - parameters.61	torch.Size([164, 64])	cuda:0	True
+2024-03-23 18:16:38,342 - INFO - parameters.62	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,342 - INFO - parameters.63	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,342 - INFO - parameters.64	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,342 - INFO - parameters.65	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,342 - INFO - parameters.66	torch.Size([1024, 768])	cuda:0	True
+2024-03-23 18:16:38,342 - INFO - parameters.67	torch.Size([16, 768])	cuda:0	True
+2024-03-23 18:16:38,342 - INFO - parameters.68	torch.Size([64, 768])	cuda:0	True
+2024-03-23 18:16:38,342 - INFO - parameters.69	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,343 - INFO - parameters.70	torch.Size([12, 64])	cuda:0	True
+2024-03-23 18:16:38,343 - INFO - parameters.71	torch.Size([12])	cuda:0	True
+2024-03-23 18:16:38,343 - INFO - parameters.72	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,343 - INFO - parameters.73	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,343 - INFO - parameters.74	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,343 - INFO - parameters.75	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,343 - INFO - parameters.76	torch.Size([64, 128])	cuda:0	True
+2024-03-23 18:16:38,343 - INFO - parameters.77	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,343 - INFO - parameters.78	torch.Size([64, 128])	cuda:0	True
+2024-03-23 18:16:38,343 - INFO - parameters.79	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,344 - INFO - parameters.80	torch.Size([64, 128])	cuda:0	True
+2024-03-23 18:16:38,344 - INFO - parameters.81	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,344 - INFO - parameters.82	torch.Size([64, 128])	cuda:0	True
+2024-03-23 18:16:38,344 - INFO - parameters.83	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,344 - INFO - parameters.84	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,344 - INFO - parameters.85	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,344 - INFO - parameters.86	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,344 - INFO - parameters.87	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,344 - INFO - parameters.88	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,344 - INFO - parameters.89	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,344 - INFO - parameters.90	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,344 - INFO - parameters.91	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,344 - INFO - parameters.92	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,344 - INFO - parameters.93	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,344 - INFO - parameters.94	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,345 - INFO - parameters.95	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,345 - INFO - parameters.96	torch.Size([164, 64])	cuda:0	True
+2024-03-23 18:16:38,345 - INFO - parameters.97	torch.Size([164, 64])	cuda:0	True
+2024-03-23 18:16:38,345 - INFO - parameters.98	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,345 - INFO - parameters.99	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,345 - INFO - parameters.100	torch.Size([64, 64])	cuda:0	True
+2024-03-23 18:16:38,345 - INFO - parameters.101	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,345 - INFO - parameters.102	torch.Size([1024, 768])	cuda:0	True
+2024-03-23 18:16:38,345 - INFO - parameters.103	torch.Size([16, 768])	cuda:0	True
+2024-03-23 18:16:38,345 - INFO - parameters.104	torch.Size([64, 768])	cuda:0	True
+2024-03-23 18:16:38,345 - INFO - parameters.105	torch.Size([64])	cuda:0	True
+2024-03-23 18:16:38,345 - INFO - parameters.106	torch.Size([12, 64])	cuda:0	True
+2024-03-23 18:16:38,345 - INFO - parameters.107	torch.Size([12])	cuda:0	True
+2024-03-23 18:16:38,346 - INFO - parameters.108	torch.Size([12, 16])	cuda:0	True
+2024-03-23 18:16:38,346 - INFO - parameters.109	torch.Size([12])	cuda:0	True
+2024-03-23 18:16:38,346 - INFO - parameters.110	torch.Size([12, 16])	cuda:0	True
+2024-03-23 18:16:38,346 - INFO - parameters.111	torch.Size([12])	cuda:0	True
+2024-03-23 18:16:38,346 - INFO - Total parameter numbers: 2196678
+2024-03-23 18:16:38,346 - INFO - You select `adam` optimizer.
+2024-03-23 18:16:38,510 - INFO - You select `multisteplr` lr_scheduler.
+2024-03-23 18:16:38,511 - WARNING - Received none train loss func and will use the loss func defined in the model.
+2024-03-23 18:16:38,511 - INFO - Start training ...
+2024-03-23 18:16:38,511 - INFO - num_batches:96
+2024-03-23 18:17:24,087 - INFO - epoch complete!
+2024-03-23 18:17:24,087 - INFO - evaluating now!
+2024-03-23 18:17:25,773 - INFO - Epoch [0/300] train_loss: 3.3268, val_loss: 2.3499, lr: 0.001000, 47.26s
+2024-03-23 18:17:25,805 - INFO - Saved model at 0
+2024-03-23 18:17:25,805 - INFO - Val loss decrease from inf to 2.3499, saving to ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow_epoch0.tar
+2024-03-23 18:18:10,604 - INFO - epoch complete!
+2024-03-23 18:18:10,605 - INFO - evaluating now!
+2024-03-23 18:18:12,210 - INFO - Epoch [1/300] train_loss: 2.8414, val_loss: 2.2872, lr: 0.001000, 46.40s
+2024-03-23 18:18:12,240 - INFO - Saved model at 1
+2024-03-23 18:18:12,241 - INFO - Val loss decrease from 2.3499 to 2.2872, saving to ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow_epoch1.tar
+2024-03-23 18:18:57,403 - INFO - epoch complete!
+2024-03-23 18:18:57,404 - INFO - evaluating now!
+2024-03-23 18:18:59,030 - INFO - Epoch [2/300] train_loss: 2.7847, val_loss: 2.2976, lr: 0.001000, 46.79s
+2024-03-23 18:19:44,204 - INFO - epoch complete!
+2024-03-23 18:19:44,204 - INFO - evaluating now!
+2024-03-23 18:19:45,985 - INFO - Epoch [3/300] train_loss: 2.7466, val_loss: 2.2555, lr: 0.001000, 46.95s
+2024-03-23 18:19:46,015 - INFO - Saved model at 3
+2024-03-23 18:19:46,015 - INFO - Val loss decrease from 2.2872 to 2.2555, saving to ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow_epoch3.tar
+2024-03-23 18:20:31,301 - INFO - epoch complete!
+2024-03-23 18:20:31,301 - INFO - evaluating now!
+2024-03-23 18:20:33,150 - INFO - Epoch [4/300] train_loss: 2.7329, val_loss: 2.2583, lr: 0.001000, 47.13s
+2024-03-23 18:21:18,591 - INFO - epoch complete!
+2024-03-23 18:21:18,591 - INFO - evaluating now!
+2024-03-23 18:21:20,271 - INFO - Epoch [5/300] train_loss: 2.7243, val_loss: 2.2499, lr: 0.001000, 47.12s
+2024-03-23 18:21:20,311 - INFO - Saved model at 5
+2024-03-23 18:21:20,311 - INFO - Val loss decrease from 2.2555 to 2.2499, saving to ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow_epoch5.tar
+2024-03-23 18:22:40,421 - INFO - epoch complete!
+2024-03-23 18:22:40,421 - INFO - evaluating now!
+2024-03-23 18:22:44,426 - INFO - Epoch [6/300] train_loss: 2.7053, val_loss: 2.2407, lr: 0.001000, 84.11s
+2024-03-23 18:22:44,481 - INFO - Saved model at 6
+2024-03-23 18:22:44,481 - INFO - Val loss decrease from 2.2499 to 2.2407, saving to ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow_epoch6.tar
+2024-03-23 18:24:03,358 - INFO - epoch complete!
+2024-03-23 18:24:03,359 - INFO - evaluating now!
+2024-03-23 18:24:04,971 - INFO - Epoch [7/300] train_loss: 2.6966, val_loss: 2.3072, lr: 0.001000, 80.49s
+2024-03-23 18:24:50,220 - INFO - epoch complete!
+2024-03-23 18:24:50,220 - INFO - evaluating now!
+2024-03-23 18:24:51,892 - INFO - Epoch [8/300] train_loss: 2.6855, val_loss: 2.2446, lr: 0.001000, 46.92s
+2024-03-23 18:25:41,187 - INFO - epoch complete!
+2024-03-23 18:25:41,187 - INFO - evaluating now!
+2024-03-23 18:25:45,192 - INFO - Epoch [9/300] train_loss: 2.6680, val_loss: 2.2219, lr: 0.001000, 53.30s
+2024-03-23 18:25:45,252 - INFO - Saved model at 9
+2024-03-23 18:25:45,252 - INFO - Val loss decrease from 2.2407 to 2.2219, saving to ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow_epoch9.tar
+2024-03-23 18:27:04,963 - INFO - epoch complete!
+2024-03-23 18:27:04,963 - INFO - evaluating now!
+2024-03-23 18:27:06,576 - INFO - Epoch [10/300] train_loss: 2.6609, val_loss: 2.2193, lr: 0.001000, 81.32s
+2024-03-23 18:27:06,611 - INFO - Saved model at 10
+2024-03-23 18:27:06,611 - INFO - Val loss decrease from 2.2219 to 2.2193, saving to ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow_epoch10.tar
+2024-03-23 18:27:58,094 - INFO - epoch complete!
+2024-03-23 18:27:58,103 - INFO - evaluating now!
+2024-03-23 18:28:02,223 - INFO - Epoch [11/300] train_loss: 2.6534, val_loss: 2.2179, lr: 0.001000, 55.61s
+2024-03-23 18:28:02,292 - INFO - Saved model at 11
+2024-03-23 18:28:02,292 - INFO - Val loss decrease from 2.2193 to 2.2179, saving to ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow_epoch11.tar
+2024-03-23 18:29:25,443 - INFO - epoch complete!
+2024-03-23 18:29:25,443 - INFO - evaluating now!
+2024-03-23 18:29:29,414 - INFO - Epoch [12/300] train_loss: 2.6401, val_loss: 2.2117, lr: 0.001000, 87.12s
+2024-03-23 18:29:29,485 - INFO - Saved model at 12
+2024-03-23 18:29:29,485 - INFO - Val loss decrease from 2.2179 to 2.2117, saving to ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow_epoch12.tar
+2024-03-23 18:30:41,902 - INFO - epoch complete!
+2024-03-23 18:30:41,902 - INFO - evaluating now!
+2024-03-23 18:30:43,524 - INFO - Epoch [13/300] train_loss: 2.6348, val_loss: 2.2127, lr: 0.001000, 74.04s
+2024-03-23 18:31:28,792 - INFO - epoch complete!
+2024-03-23 18:31:28,792 - INFO - evaluating now!
+2024-03-23 18:31:30,468 - INFO - Epoch [14/300] train_loss: 2.6282, val_loss: 2.2105, lr: 0.001000, 46.94s
+2024-03-23 18:31:30,498 - INFO - Saved model at 14
+2024-03-23 18:31:30,498 - INFO - Val loss decrease from 2.2117 to 2.2105, saving to ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow_epoch14.tar
+2024-03-23 18:32:15,681 - INFO - epoch complete!
+2024-03-23 18:32:15,681 - INFO - evaluating now!
+2024-03-23 18:32:17,370 - INFO - Epoch [15/300] train_loss: 2.6128, val_loss: 2.1962, lr: 0.001000, 46.87s
+2024-03-23 18:32:17,409 - INFO - Saved model at 15
+2024-03-23 18:32:17,410 - INFO - Val loss decrease from 2.2105 to 2.1962, saving to ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow_epoch15.tar
+2024-03-23 18:33:03,051 - INFO - epoch complete!
+2024-03-23 18:33:03,051 - INFO - evaluating now!
+2024-03-23 18:33:04,713 - INFO - Epoch [16/300] train_loss: 2.6033, val_loss: 2.1928, lr: 0.001000, 47.30s
+2024-03-23 18:33:04,744 - INFO - Saved model at 16
+2024-03-23 18:33:04,744 - INFO - Val loss decrease from 2.1962 to 2.1928, saving to ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow_epoch16.tar
+2024-03-23 18:33:50,187 - INFO - epoch complete!
+2024-03-23 18:33:50,187 - INFO - evaluating now!
+2024-03-23 18:33:51,884 - INFO - Epoch [17/300] train_loss: 2.5961, val_loss: 2.1935, lr: 0.001000, 47.14s
+2024-03-23 18:34:37,609 - INFO - epoch complete!
+2024-03-23 18:34:37,609 - INFO - evaluating now!
+2024-03-23 18:34:39,309 - INFO - Epoch [18/300] train_loss: 2.5898, val_loss: 2.1791, lr: 0.001000, 47.43s
+2024-03-23 18:34:39,342 - INFO - Saved model at 18
+2024-03-23 18:34:39,342 - INFO - Val loss decrease from 2.1928 to 2.1791, saving to ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow_epoch18.tar
+2024-03-23 18:35:24,787 - INFO - epoch complete!
+2024-03-23 18:35:24,788 - INFO - evaluating now!
+2024-03-23 18:35:26,511 - INFO - Epoch [19/300] train_loss: 2.5762, val_loss: 2.1771, lr: 0.001000, 47.17s
+2024-03-23 18:35:26,542 - INFO - Saved model at 19
+2024-03-23 18:35:26,542 - INFO - Val loss decrease from 2.1791 to 2.1771, saving to ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow_epoch19.tar
+2024-03-23 18:36:11,230 - INFO - epoch complete!
+2024-03-23 18:36:11,231 - INFO - evaluating now!
+2024-03-23 18:36:12,840 - INFO - Epoch [20/300] train_loss: 2.5693, val_loss: 2.1777, lr: 0.001000, 46.30s
+2024-03-23 18:36:57,961 - INFO - epoch complete!
+2024-03-23 18:36:57,961 - INFO - evaluating now!
+2024-03-23 18:36:59,655 - INFO - Epoch [21/300] train_loss: 2.5665, val_loss: 2.1706, lr: 0.001000, 46.81s
+2024-03-23 18:36:59,691 - INFO - Saved model at 21
+2024-03-23 18:36:59,692 - INFO - Val loss decrease from 2.1771 to 2.1706, saving to ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow_epoch21.tar
+2024-03-23 18:37:45,038 - INFO - epoch complete!
+2024-03-23 18:37:45,039 - INFO - evaluating now!
+2024-03-23 18:37:46,676 - INFO - Epoch [22/300] train_loss: 2.5615, val_loss: 2.1765, lr: 0.001000, 46.98s
+2024-03-23 18:38:31,998 - INFO - epoch complete!
+2024-03-23 18:38:31,999 - INFO - evaluating now!
+2024-03-23 18:38:33,672 - INFO - Epoch [23/300] train_loss: 2.5517, val_loss: 2.1757, lr: 0.001000, 46.99s
+2024-03-23 18:39:19,383 - INFO - epoch complete!
+2024-03-23 18:39:19,384 - INFO - evaluating now!
+2024-03-23 18:39:21,043 - INFO - Epoch [24/300] train_loss: 2.5521, val_loss: 2.1590, lr: 0.001000, 47.37s
+2024-03-23 18:39:21,082 - INFO - Saved model at 24
+2024-03-23 18:39:21,082 - INFO - Val loss decrease from 2.1706 to 2.1590, saving to ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow_epoch24.tar
+2024-03-23 18:40:06,109 - INFO - epoch complete!
+2024-03-23 18:40:06,110 - INFO - evaluating now!
+2024-03-23 18:40:07,676 - INFO - Epoch [25/300] train_loss: 2.5382, val_loss: 2.1685, lr: 0.001000, 46.59s
+2024-03-23 18:40:53,265 - INFO - epoch complete!
+2024-03-23 18:40:53,266 - INFO - evaluating now!
+2024-03-23 18:40:54,902 - INFO - Epoch [26/300] train_loss: 2.5393, val_loss: 2.1654, lr: 0.001000, 47.23s
+2024-03-23 18:41:39,859 - INFO - epoch complete!
+2024-03-23 18:41:39,860 - INFO - evaluating now!
+2024-03-23 18:41:41,478 - INFO - Epoch [27/300] train_loss: 2.5316, val_loss: 2.1647, lr: 0.001000, 46.58s
+2024-03-23 18:42:26,342 - INFO - epoch complete!
+2024-03-23 18:42:26,343 - INFO - evaluating now!
+2024-03-23 18:42:28,005 - INFO - Epoch [28/300] train_loss: 2.5274, val_loss: 2.1567, lr: 0.001000, 46.53s
+2024-03-23 18:42:28,036 - INFO - Saved model at 28
+2024-03-23 18:42:28,037 - INFO - Val loss decrease from 2.1590 to 2.1567, saving to ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow_epoch28.tar
+2024-03-23 18:43:13,034 - INFO - epoch complete!
+2024-03-23 18:43:13,034 - INFO - evaluating now!
+2024-03-23 18:43:14,665 - INFO - Epoch [29/300] train_loss: 2.5220, val_loss: 2.1571, lr: 0.001000, 46.63s
+2024-03-23 18:43:59,531 - INFO - epoch complete!
+2024-03-23 18:43:59,531 - INFO - evaluating now!
+2024-03-23 18:44:01,104 - INFO - Epoch [30/300] train_loss: 2.5184, val_loss: 2.1471, lr: 0.001000, 46.44s
+2024-03-23 18:44:01,132 - INFO - Saved model at 30
+2024-03-23 18:44:01,132 - INFO - Val loss decrease from 2.1567 to 2.1471, saving to ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow_epoch30.tar
+2024-03-23 18:45:02,186 - INFO - epoch complete!
+2024-03-23 18:45:02,186 - INFO - evaluating now!
+2024-03-23 18:45:06,161 - INFO - Epoch [31/300] train_loss: 2.5110, val_loss: 2.1553, lr: 0.001000, 65.03s
+2024-03-23 18:46:27,684 - INFO - epoch complete!
+2024-03-23 18:46:27,684 - INFO - evaluating now!
+2024-03-23 18:46:31,731 - INFO - Epoch [32/300] train_loss: 2.5090, val_loss: 2.1581, lr: 0.001000, 85.57s
+2024-03-23 18:47:51,677 - INFO - epoch complete!
+2024-03-23 18:47:51,677 - INFO - evaluating now!
+2024-03-23 18:47:53,208 - INFO - Epoch [33/300] train_loss: 2.5053, val_loss: 2.1652, lr: 0.001000, 81.48s
+2024-03-23 18:48:38,052 - INFO - epoch complete!
+2024-03-23 18:48:38,054 - INFO - evaluating now!
+2024-03-23 18:48:39,686 - INFO - Epoch [34/300] train_loss: 2.5000, val_loss: 2.1486, lr: 0.001000, 46.48s
+2024-03-23 18:49:25,175 - INFO - epoch complete!
+2024-03-23 18:49:25,175 - INFO - evaluating now!
+2024-03-23 18:49:26,878 - INFO - Epoch [35/300] train_loss: 2.4946, val_loss: 2.1598, lr: 0.001000, 47.19s
+2024-03-23 18:50:12,069 - INFO - epoch complete!
+2024-03-23 18:50:12,069 - INFO - evaluating now!
+2024-03-23 18:50:13,683 - INFO - Epoch [36/300] train_loss: 2.4876, val_loss: 2.1409, lr: 0.001000, 46.81s
+2024-03-23 18:50:13,714 - INFO - Saved model at 36
+2024-03-23 18:50:13,714 - INFO - Val loss decrease from 2.1471 to 2.1409, saving to ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow_epoch36.tar
+2024-03-23 18:50:59,163 - INFO - epoch complete!
+2024-03-23 18:50:59,163 - INFO - evaluating now!
+2024-03-23 18:51:00,825 - INFO - Epoch [37/300] train_loss: 2.4838, val_loss: 2.1454, lr: 0.001000, 47.11s
+2024-03-23 18:51:46,184 - INFO - epoch complete!
+2024-03-23 18:51:46,187 - INFO - evaluating now!
+2024-03-23 18:51:47,948 - INFO - Epoch [38/300] train_loss: 2.4804, val_loss: 2.1523, lr: 0.001000, 47.12s
+2024-03-23 18:52:33,038 - INFO - epoch complete!
+2024-03-23 18:52:33,038 - INFO - evaluating now!
+2024-03-23 18:52:34,734 - INFO - Epoch [39/300] train_loss: 2.4766, val_loss: 2.1517, lr: 0.000100, 46.79s
+2024-03-23 18:53:19,755 - INFO - epoch complete!
+2024-03-23 18:53:19,756 - INFO - evaluating now!
+2024-03-23 18:53:21,382 - INFO - Epoch [40/300] train_loss: 2.4436, val_loss: 2.1471, lr: 0.000100, 46.65s
+2024-03-23 18:54:06,476 - INFO - epoch complete!
+2024-03-23 18:54:06,476 - INFO - evaluating now!
+2024-03-23 18:54:08,061 - INFO - Epoch [41/300] train_loss: 2.4344, val_loss: 2.1431, lr: 0.000100, 46.68s
+2024-03-23 18:54:56,225 - INFO - epoch complete!
+2024-03-23 18:54:56,226 - INFO - evaluating now!
+2024-03-23 18:55:00,562 - INFO - Epoch [42/300] train_loss: 2.4317, val_loss: 2.1420, lr: 0.000100, 52.50s
+2024-03-23 18:56:23,005 - INFO - epoch complete!
+2024-03-23 18:56:23,005 - INFO - evaluating now!
+2024-03-23 18:56:27,077 - INFO - Epoch [43/300] train_loss: 2.4295, val_loss: 2.1441, lr: 0.000100, 86.51s
+2024-03-23 18:57:48,486 - INFO - epoch complete!
+2024-03-23 18:57:48,487 - INFO - evaluating now!
+2024-03-23 18:57:52,748 - INFO - Epoch [44/300] train_loss: 2.4285, val_loss: 2.1456, lr: 0.000100, 85.67s
+2024-03-23 18:59:15,898 - INFO - epoch complete!
+2024-03-23 18:59:15,899 - INFO - evaluating now!
+2024-03-23 18:59:20,068 - INFO - Epoch [45/300] train_loss: 2.4253, val_loss: 2.1426, lr: 0.000100, 87.32s
+2024-03-23 19:00:31,863 - INFO - epoch complete!
+2024-03-23 19:00:31,866 - INFO - evaluating now!
+2024-03-23 19:00:35,780 - INFO - Epoch [46/300] train_loss: 2.4248, val_loss: 2.1458, lr: 0.000100, 75.71s
+2024-03-23 19:01:35,993 - INFO - epoch complete!
+2024-03-23 19:01:35,993 - INFO - evaluating now!
+2024-03-23 19:01:37,626 - INFO - Epoch [47/300] train_loss: 2.4224, val_loss: 2.1451, lr: 0.000100, 61.85s
+2024-03-23 19:02:23,038 - INFO - epoch complete!
+2024-03-23 19:02:23,039 - INFO - evaluating now!
+2024-03-23 19:02:24,676 - INFO - Epoch [48/300] train_loss: 2.4211, val_loss: 2.1497, lr: 0.000100, 47.05s
+2024-03-23 19:03:31,875 - INFO - epoch complete!
+2024-03-23 19:03:31,875 - INFO - evaluating now!
+2024-03-23 19:03:35,730 - INFO - Epoch [49/300] train_loss: 2.4192, val_loss: 2.1453, lr: 0.000100, 71.05s
+2024-03-23 19:04:56,174 - INFO - epoch complete!
+2024-03-23 19:04:56,174 - INFO - evaluating now!
+2024-03-23 19:05:00,059 - INFO - Epoch [50/300] train_loss: 2.4174, val_loss: 2.1470, lr: 0.000100, 84.32s
+2024-03-23 19:06:18,703 - INFO - epoch complete!
+2024-03-23 19:06:18,703 - INFO - evaluating now!
+2024-03-23 19:06:22,591 - INFO - Epoch [51/300] train_loss: 2.4159, val_loss: 2.1467, lr: 0.000100, 82.53s
+2024-03-23 19:07:40,660 - INFO - epoch complete!
+2024-03-23 19:07:40,660 - INFO - evaluating now!
+2024-03-23 19:07:42,210 - INFO - Epoch [52/300] train_loss: 2.4148, val_loss: 2.1467, lr: 0.000100, 79.62s
+2024-03-23 19:08:44,333 - INFO - epoch complete!
+2024-03-23 19:08:44,333 - INFO - evaluating now!
+2024-03-23 19:08:48,401 - INFO - Epoch [53/300] train_loss: 2.4124, val_loss: 2.1501, lr: 0.000100, 66.19s
+2024-03-23 19:10:08,291 - INFO - epoch complete!
+2024-03-23 19:10:08,291 - INFO - evaluating now!
+2024-03-23 19:10:12,426 - INFO - Epoch [54/300] train_loss: 2.4125, val_loss: 2.1456, lr: 0.000100, 84.03s
+2024-03-23 19:11:11,302 - INFO - epoch complete!
+2024-03-23 19:11:11,302 - INFO - evaluating now!
+2024-03-23 19:11:15,314 - INFO - Epoch [55/300] train_loss: 2.4099, val_loss: 2.1498, lr: 0.000100, 62.89s
+2024-03-23 19:12:35,043 - INFO - epoch complete!
+2024-03-23 19:12:35,043 - INFO - evaluating now!
+2024-03-23 19:12:38,895 - INFO - Epoch [56/300] train_loss: 2.4083, val_loss: 2.1485, lr: 0.000100, 83.58s
+2024-03-23 19:14:01,399 - INFO - epoch complete!
+2024-03-23 19:14:01,402 - INFO - evaluating now!
+2024-03-23 19:14:05,903 - INFO - Epoch [57/300] train_loss: 2.4064, val_loss: 2.1470, lr: 0.000100, 87.01s
+2024-03-23 19:15:14,858 - INFO - epoch complete!
+2024-03-23 19:15:14,859 - INFO - evaluating now!
+2024-03-23 19:15:16,469 - INFO - Epoch [58/300] train_loss: 2.4050, val_loss: 2.1443, lr: 0.000100, 70.57s
+2024-03-23 19:16:16,918 - INFO - epoch complete!
+2024-03-23 19:16:16,918 - INFO - evaluating now!
+2024-03-23 19:16:18,630 - INFO - Epoch [59/300] train_loss: 2.4030, val_loss: 2.1521, lr: 0.000100, 62.16s
+2024-03-23 19:17:04,657 - INFO - epoch complete!
+2024-03-23 19:17:04,657 - INFO - evaluating now!
+2024-03-23 19:17:06,354 - INFO - Epoch [60/300] train_loss: 2.4013, val_loss: 2.1524, lr: 0.000100, 47.72s
+2024-03-23 19:17:51,800 - INFO - epoch complete!
+2024-03-23 19:17:51,801 - INFO - evaluating now!
+2024-03-23 19:17:53,427 - INFO - Epoch [61/300] train_loss: 2.3995, val_loss: 2.1443, lr: 0.000100, 47.07s
+2024-03-23 19:18:39,477 - INFO - epoch complete!
+2024-03-23 19:18:39,477 - INFO - evaluating now!
+2024-03-23 19:18:41,134 - INFO - Epoch [62/300] train_loss: 2.3984, val_loss: 2.1490, lr: 0.000100, 47.71s
+2024-03-23 19:19:26,618 - INFO - epoch complete!
+2024-03-23 19:19:26,618 - INFO - evaluating now!
+2024-03-23 19:19:28,249 - INFO - Epoch [63/300] train_loss: 2.3977, val_loss: 2.1458, lr: 0.000100, 47.12s
+2024-03-23 19:20:13,428 - INFO - epoch complete!
+2024-03-23 19:20:13,428 - INFO - evaluating now!
+2024-03-23 19:20:15,136 - INFO - Epoch [64/300] train_loss: 2.3949, val_loss: 2.1504, lr: 0.000100, 46.89s
+2024-03-23 19:21:00,805 - INFO - epoch complete!
+2024-03-23 19:21:00,805 - INFO - evaluating now!
+2024-03-23 19:21:02,396 - INFO - Epoch [65/300] train_loss: 2.3939, val_loss: 2.1464, lr: 0.000100, 47.26s
+2024-03-23 19:21:47,830 - INFO - epoch complete!
+2024-03-23 19:21:47,830 - INFO - evaluating now!
+2024-03-23 19:21:49,407 - INFO - Epoch [66/300] train_loss: 2.3923, val_loss: 2.1479, lr: 0.000100, 47.01s
+2024-03-23 19:22:34,631 - INFO - epoch complete!
+2024-03-23 19:22:34,631 - INFO - evaluating now!
+2024-03-23 19:22:36,308 - INFO - Epoch [67/300] train_loss: 2.3918, val_loss: 2.1516, lr: 0.000100, 46.90s
+2024-03-23 19:23:21,584 - INFO - epoch complete!
+2024-03-23 19:23:21,584 - INFO - evaluating now!
+2024-03-23 19:23:23,197 - INFO - Epoch [68/300] train_loss: 2.3885, val_loss: 2.1489, lr: 0.000100, 46.89s
+2024-03-23 19:24:08,003 - INFO - epoch complete!
+2024-03-23 19:24:08,004 - INFO - evaluating now!
+2024-03-23 19:24:09,616 - INFO - Epoch [69/300] train_loss: 2.3877, val_loss: 2.1505, lr: 0.000100, 46.42s
+2024-03-23 19:24:54,673 - INFO - epoch complete!
+2024-03-23 19:24:54,673 - INFO - evaluating now!
+2024-03-23 19:24:56,253 - INFO - Epoch [70/300] train_loss: 2.3857, val_loss: 2.1551, lr: 0.000100, 46.64s
+2024-03-23 19:25:41,229 - INFO - epoch complete!
+2024-03-23 19:25:41,230 - INFO - evaluating now!
+2024-03-23 19:25:42,900 - INFO - Epoch [71/300] train_loss: 2.3843, val_loss: 2.1479, lr: 0.000100, 46.65s
+2024-03-23 19:26:27,918 - INFO - epoch complete!
+2024-03-23 19:26:27,918 - INFO - evaluating now!
+2024-03-23 19:26:29,582 - INFO - Epoch [72/300] train_loss: 2.3835, val_loss: 2.1494, lr: 0.000100, 46.68s
+2024-03-23 19:27:14,876 - INFO - epoch complete!
+2024-03-23 19:27:14,877 - INFO - evaluating now!
+2024-03-23 19:27:16,472 - INFO - Epoch [73/300] train_loss: 2.3819, val_loss: 2.1552, lr: 0.000100, 46.89s
+2024-03-23 19:28:01,504 - INFO - epoch complete!
+2024-03-23 19:28:01,504 - INFO - evaluating now!
+2024-03-23 19:28:03,064 - INFO - Epoch [74/300] train_loss: 2.3807, val_loss: 2.1494, lr: 0.000100, 46.59s
+2024-03-23 19:28:48,594 - INFO - epoch complete!
+2024-03-23 19:28:48,594 - INFO - evaluating now!
+2024-03-23 19:28:50,143 - INFO - Epoch [75/300] train_loss: 2.3797, val_loss: 2.1491, lr: 0.000100, 47.08s
+2024-03-23 19:29:35,461 - INFO - epoch complete!
+2024-03-23 19:29:35,461 - INFO - evaluating now!
+2024-03-23 19:29:37,038 - INFO - Epoch [76/300] train_loss: 2.3775, val_loss: 2.1566, lr: 0.000100, 46.89s
+2024-03-23 19:30:22,090 - INFO - epoch complete!
+2024-03-23 19:30:22,090 - INFO - evaluating now!
+2024-03-23 19:30:23,749 - INFO - Epoch [77/300] train_loss: 2.3757, val_loss: 2.1525, lr: 0.000100, 46.71s
+2024-03-23 19:31:09,005 - INFO - epoch complete!
+2024-03-23 19:31:09,005 - INFO - evaluating now!
+2024-03-23 19:31:10,687 - INFO - Epoch [78/300] train_loss: 2.3743, val_loss: 2.1566, lr: 0.000100, 46.94s
+2024-03-23 19:31:56,011 - INFO - epoch complete!
+2024-03-23 19:31:56,011 - INFO - evaluating now!
+2024-03-23 19:31:57,638 - INFO - Epoch [79/300] train_loss: 2.3729, val_loss: 2.1546, lr: 0.000010, 46.95s
+2024-03-23 19:32:42,864 - INFO - epoch complete!
+2024-03-23 19:32:42,865 - INFO - evaluating now!
+2024-03-23 19:32:44,547 - INFO - Epoch [80/300] train_loss: 2.3651, val_loss: 2.1554, lr: 0.000010, 46.91s
+2024-03-23 19:33:29,742 - INFO - epoch complete!
+2024-03-23 19:33:29,743 - INFO - evaluating now!
+2024-03-23 19:33:31,461 - INFO - Epoch [81/300] train_loss: 2.3634, val_loss: 2.1515, lr: 0.000010, 46.91s
+2024-03-23 19:34:16,128 - INFO - epoch complete!
+2024-03-23 19:34:16,128 - INFO - evaluating now!
+2024-03-23 19:34:17,794 - INFO - Epoch [82/300] train_loss: 2.3629, val_loss: 2.1527, lr: 0.000010, 46.33s
+2024-03-23 19:35:03,416 - INFO - epoch complete!
+2024-03-23 19:35:03,417 - INFO - evaluating now!
+2024-03-23 19:35:05,048 - INFO - Epoch [83/300] train_loss: 2.3627, val_loss: 2.1510, lr: 0.000010, 47.25s
+2024-03-23 19:35:49,793 - INFO - epoch complete!
+2024-03-23 19:35:49,794 - INFO - evaluating now!
+2024-03-23 19:35:51,399 - INFO - Epoch [84/300] train_loss: 2.3621, val_loss: 2.1532, lr: 0.000010, 46.35s
+2024-03-23 19:36:36,132 - INFO - epoch complete!
+2024-03-23 19:36:36,132 - INFO - evaluating now!
+2024-03-23 19:36:37,756 - INFO - Epoch [85/300] train_loss: 2.3620, val_loss: 2.1518, lr: 0.000010, 46.36s
+2024-03-23 19:37:22,597 - INFO - epoch complete!
+2024-03-23 19:37:22,597 - INFO - evaluating now!
+2024-03-23 19:37:24,205 - INFO - Epoch [86/300] train_loss: 2.3625, val_loss: 2.1526, lr: 0.000010, 46.45s
+2024-03-23 19:37:24,205 - WARNING - Early stopping at epoch: 86
+2024-03-23 19:37:24,205 - INFO - Trained totally 87 epochs, average train time is 53.516s, average eval time is 2.172s
+2024-03-23 19:37:24,226 - INFO - Loaded model at 36
+2024-03-23 19:37:24,227 - INFO - Saved model at ./libcity/cache/AAD_AIS3231600/model_cache/AAD_AISFlow.m
+2024-03-23 19:37:24,263 - INFO - Start evaluating ...

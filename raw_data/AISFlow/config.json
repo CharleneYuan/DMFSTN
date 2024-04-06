@@ -1,0 +1,48 @@
+{
+  "geo": {
+    "including_types": [
+      "Point"
+    ],
+    "Point": {}
+  },
+  "rel": {
+    "including_types": [
+      "geo"
+    ],
+    "geo": {
+      "cost": "num", 
+      "weight": "num",
+      "length_max": "num",
+      "width_max": "num"
+    }
+  },
+  "dyna": {
+    "including_types": [
+      "state"
+    ],
+    "state": {
+      "entity_id": "geo_id",
+      "num": "num",
+      "in_flow" : "num",
+      "out_flow" : "num",
+      "speed": "num"
+    }
+  },
+  "info": {
+    "data_col": [
+      "num"
+    ],
+    "weight_col": "cost",
+    "data_files": [
+      "AISFlow"
+    ],
+    "geo_file": "AISFlow",
+    "rel_file": "AISFlow",
+    "output_dim": 1,
+    "time_intervals": 14400,
+    "init_weight_inf_or_zero": "zero",
+    "set_weight_link_or_dist": "link",
+    "calculate_weight_adj": false,
+    "weight_adj_epsilon": 0.1
+  }
+}

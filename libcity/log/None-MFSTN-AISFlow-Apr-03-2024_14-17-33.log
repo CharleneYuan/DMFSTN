@@ -1,0 +1,96 @@
+2024-04-03 14:17:33,848 - INFO - Log directory: ./libcity/log
+2024-04-03 14:17:33,849 - INFO - Begin pipeline, task=traffic_state_pred, model_name=MFSTN, dataset_name=AISFlow, exp_id=None
+2024-04-03 14:17:33,849 - INFO - {'task': 'traffic_state_pred', 'model': 'MFSTN', 'dataset': 'AISFlow', 'saved_model': True, 'train': True, 'exp_id': 'None', 'seed': 0, 'dataset_class': 'TrafficStatePointDataset', 'executor': 'TrafficStateExecutor', 'evaluator': 'TrafficStateEvaluator', 'scaler': 'standard', 'feature_dim': 1, 'input_dim': 64, 'hidden_dim': 64, 'output_dim': 1, 'backcast_length': 12, 'forecast_length': 12, 'input_window': 12, 'output_window': 12, 'device': device(type='cuda', index=0), 'hidden_size': 64, 'num_layers': 1, 'dropout': 0.2, 'batch_size': 64, 'max_epoch': 300, 'learner': 'adam', 'use_early_stop': True, 'load_external': True, 'add_time_in_day': True, 'add_day_in_week': True, 'learning_rate': 0.001, 'lr_decay': True, 'lr_scheduler': 'multisteplr', 'lr_decay_ratio': 0.1, 'steps': [40, 80], 'cache_dataset': True, 'num_workers': 0, 'pad_with_last_sample': True, 'train_rate': 0.7, 'eval_rate': 0.1, 'normal_external': False, 'ext_scaler': 'none', 'gpu': True, 'gpu_id': 0, 'train_loss': 'none', 'epoch': 0, 'weight_decay': 0, 'lr_epsilon': 1e-08, 'lr_beta1': 0.9, 'lr_beta2': 0.999, 'lr_alpha': 0.99, 'lr_momentum': 0, 'step_size': 10, 'lr_T_max': 30, 'lr_eta_min': 0, 'lr_patience': 10, 'lr_threshold': 0.0001, 'clip_grad_norm': False, 'max_grad_norm': 1.0, 'patience': 50, 'log_level': 'INFO', 'log_every': 1, 'load_best_epoch': True, 'hyper_tune': False, 'metrics': ['MAE', 'RMSE', 'masked_MAPE'], 'evaluator_mode': 'single', 'save_mode': ['csv'], 'geo': {'including_types': ['Point'], 'Point': {}}, 'rel': {'including_types': ['geo'], 'geo': {'cost': 'num', 'weight': 'num', 'length_max': 'num', 'width_max': 'num'}}, 'dyna': {'including_types': ['state'], 'state': {'entity_id': 'geo_id', 'num': 'num', 'in_flow': 'num', 'out_flow': 'num', 'speed': 'num'}}, 'data_col': ['num'], 'weight_col': 'cost', 'data_files': ['AISFlow'], 'geo_file': 'AISFlow', 'rel_file': 'AISFlow', 'time_intervals': 14400, 'init_weight_inf_or_zero': 'zero', 'set_weight_link_or_dist': 'link', 'calculate_weight_adj': False, 'weight_adj_epsilon': 0.1}
+2024-04-03 14:17:33,854 - INFO - Loaded file AISFlow.geo, num_nodes=164
+2024-04-03 14:17:33,865 - INFO - set_weight_link_or_dist: link
+2024-04-03 14:17:33,865 - INFO - init_weight_inf_or_zero: zero
+2024-04-03 14:17:33,882 - INFO - Loaded file AISFlow.rel, shape=(164, 164)
+2024-04-03 14:17:33,883 - INFO - Loading ./libcity/cache/dataset_cache/point_based_AISFlow_12_12_0.7_0.1_standard_64_True_True_True_True.npz
+2024-04-03 14:17:36,467 - INFO - train	x: (6117, 12, 164, 9), y: (6117, 12, 164, 9)
+2024-04-03 14:17:36,467 - INFO - eval	x: (873, 12, 164, 9), y: (873, 12, 164, 9)
+2024-04-03 14:17:36,467 - INFO - test	x: (1748, 12, 164, 9), y: (1748, 12, 164, 9)
+2024-04-03 14:17:36,567 - INFO - StandardScaler mean: 8.553017646409911, std: 8.550803670850566
+2024-04-03 14:17:36,567 - INFO - NoneScaler
+2024-04-03 14:17:39,034 - INFO - MFSTN(
+  (time_day_embedding): Linear(in_features=1, out_features=1, bias=True)
+  (day_week_embedding): Linear(in_features=7, out_features=1, bias=True)
+  (gcn): GCN(
+    (relu): ReLU()
+    (fc1): Linear(in_features=64, out_features=64, bias=True)
+    (w_z): Linear(in_features=128, out_features=64, bias=True)
+    (w_zi): Linear(in_features=128, out_features=64, bias=True)
+    (w_zf): Linear(in_features=128, out_features=64, bias=True)
+    (w_zo): Linear(in_features=128, out_features=64, bias=True)
+    (w_h): Linear(in_features=64, out_features=64, bias=True)
+    (gc1): GraphConvolution()
+    (gc2): GraphConvolution()
+    (gc3): GraphConvolution()
+    (dgc1): DynamicGraphConvolution()
+    (dgc2): DynamicGraphConvolution()
+    (bn): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (ln): LayerNorm((164, 64), eps=1e-05, elementwise_affine=True)
+    (dropout): Dropout(p=0.2, inplace=False)
+  )
+  (fc_ox): Linear(in_features=1, out_features=64, bias=True)
+  (fc_ht): Linear(in_features=64, out_features=64, bias=True)
+  (fc_ct): Linear(in_features=64, out_features=64, bias=True)
+  (fc_out): Linear(in_features=768, out_features=12, bias=True)
+)
+2024-04-03 14:17:39,035 - INFO - time_day_embedding.weight	torch.Size([1, 1])	cuda:0	True
+2024-04-03 14:17:39,035 - INFO - time_day_embedding.bias	torch.Size([1])	cuda:0	True
+2024-04-03 14:17:39,035 - INFO - day_week_embedding.weight	torch.Size([1, 7])	cuda:0	True
+2024-04-03 14:17:39,036 - INFO - day_week_embedding.bias	torch.Size([1])	cuda:0	True
+2024-04-03 14:17:39,036 - INFO - gcn.w_k	torch.Size([64, 64])	cuda:0	True
+2024-04-03 14:17:39,036 - INFO - gcn.w_q	torch.Size([64, 64])	cuda:0	True
+2024-04-03 14:17:39,036 - INFO - gcn.fc1.weight	torch.Size([64, 64])	cuda:0	True
+2024-04-03 14:17:39,036 - INFO - gcn.fc1.bias	torch.Size([64])	cuda:0	True
+2024-04-03 14:17:39,036 - INFO - gcn.w_z.weight	torch.Size([64, 128])	cuda:0	True
+2024-04-03 14:17:39,036 - INFO - gcn.w_z.bias	torch.Size([64])	cuda:0	True
+2024-04-03 14:17:39,036 - INFO - gcn.w_zi.weight	torch.Size([64, 128])	cuda:0	True
+2024-04-03 14:17:39,036 - INFO - gcn.w_zi.bias	torch.Size([64])	cuda:0	True
+2024-04-03 14:17:39,036 - INFO - gcn.w_zf.weight	torch.Size([64, 128])	cuda:0	True
+2024-04-03 14:17:39,036 - INFO - gcn.w_zf.bias	torch.Size([64])	cuda:0	True
+2024-04-03 14:17:39,036 - INFO - gcn.w_zo.weight	torch.Size([64, 128])	cuda:0	True
+2024-04-03 14:17:39,036 - INFO - gcn.w_zo.bias	torch.Size([64])	cuda:0	True
+2024-04-03 14:17:39,036 - INFO - gcn.w_h.weight	torch.Size([64, 64])	cuda:0	True
+2024-04-03 14:17:39,036 - INFO - gcn.w_h.bias	torch.Size([64])	cuda:0	True
+2024-04-03 14:17:39,036 - INFO - gcn.gc1.weight	torch.Size([64, 64])	cuda:0	True
+2024-04-03 14:17:39,036 - INFO - gcn.gc1.bias	torch.Size([64])	cuda:0	True
+2024-04-03 14:17:39,037 - INFO - gcn.gc2.weight	torch.Size([64, 64])	cuda:0	True
+2024-04-03 14:17:39,037 - INFO - gcn.gc2.bias	torch.Size([64])	cuda:0	True
+2024-04-03 14:17:39,037 - INFO - gcn.gc3.weight	torch.Size([64, 64])	cuda:0	True
+2024-04-03 14:17:39,037 - INFO - gcn.gc3.bias	torch.Size([64])	cuda:0	True
+2024-04-03 14:17:39,037 - INFO - gcn.dgc1.weight	torch.Size([64, 64])	cuda:0	True
+2024-04-03 14:17:39,037 - INFO - gcn.dgc1.bias	torch.Size([64])	cuda:0	True
+2024-04-03 14:17:39,037 - INFO - gcn.dgc2.weight	torch.Size([64, 64])	cuda:0	True
+2024-04-03 14:17:39,037 - INFO - gcn.dgc2.bias	torch.Size([64])	cuda:0	True
+2024-04-03 14:17:39,037 - INFO - gcn.bn.weight	torch.Size([64])	cuda:0	True
+2024-04-03 14:17:39,037 - INFO - gcn.bn.bias	torch.Size([64])	cuda:0	True
+2024-04-03 14:17:39,037 - INFO - gcn.ln.weight	torch.Size([164, 64])	cuda:0	True
+2024-04-03 14:17:39,037 - INFO - gcn.ln.bias	torch.Size([164, 64])	cuda:0	True
+2024-04-03 14:17:39,037 - INFO - fc_ox.weight	torch.Size([64, 1])	cuda:0	True
+2024-04-03 14:17:39,037 - INFO - fc_ox.bias	torch.Size([64])	cuda:0	True
+2024-04-03 14:17:39,037 - INFO - fc_ht.weight	torch.Size([64, 64])	cuda:0	True
+2024-04-03 14:17:39,037 - INFO - fc_ht.bias	torch.Size([64])	cuda:0	True
+2024-04-03 14:17:39,038 - INFO - fc_ct.weight	torch.Size([64, 64])	cuda:0	True
+2024-04-03 14:17:39,038 - INFO - fc_ct.bias	torch.Size([64])	cuda:0	True
+2024-04-03 14:17:39,038 - INFO - fc_out.weight	torch.Size([12, 768])	cuda:0	True
+2024-04-03 14:17:39,038 - INFO - fc_out.bias	torch.Size([12])	cuda:0	True
+2024-04-03 14:17:39,038 - INFO - Total parameter numbers: 109142
+2024-04-03 14:17:39,038 - INFO - You select `adam` optimizer.
+2024-04-03 14:17:39,248 - INFO - You select `multisteplr` lr_scheduler.
+2024-04-03 14:17:39,248 - WARNING - Received none train loss func and will use the loss func defined in the model.
+2024-04-03 14:17:39,248 - INFO - Start training ...
+2024-04-03 14:17:39,248 - INFO - num_batches:96
+2024-04-03 14:17:44,469 - INFO - epoch complete!
+2024-04-03 14:17:44,470 - INFO - evaluating now!
+2024-04-03 14:17:44,698 - INFO - Epoch [0/300] train_loss: 3.1611, val_loss: 2.3225, lr: 0.001000, 5.45s
+2024-04-03 14:17:44,704 - INFO - Saved model at 0
+2024-04-03 14:17:44,704 - INFO - Val loss decrease from inf to 2.3225, saving to ./libcity/cache/None/model_cache/MFSTN_AISFlow_epoch0.tar
+2024-04-03 14:17:49,691 - INFO - epoch complete!
+2024-04-03 14:17:49,691 - INFO - evaluating now!
+2024-04-03 14:17:49,926 - INFO - Epoch [1/300] train_loss: 2.8181, val_loss: 2.2913, lr: 0.001000, 5.22s
+2024-04-03 14:17:49,933 - INFO - Saved model at 1
+2024-04-03 14:17:49,933 - INFO - Val loss decrease from 2.3225 to 2.2913, saving to ./libcity/cache/None/model_cache/MFSTN_AISFlow_epoch1.tar
+2024-04-03 14:17:54,847 - INFO - epoch complete!
+2024-04-03 14:17:54,847 - INFO - evaluating now!

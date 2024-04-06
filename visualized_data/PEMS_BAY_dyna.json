@@ -1,0 +1,4555 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400001,
+                "traffic_speed": 67.56855668124952
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.901149,
+                    37.364084999999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400017,
+                "traffic_speed": 59.019078593905896
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.94543999999999,
+                    37.253303
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400030,
+                "traffic_speed": 59.138577404252054
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.90653799999998,
+                    37.359087
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400040,
+                "traffic_speed": 62.13740693836825
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.87310900000001,
+                    37.294949
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400045,
+                "traffic_speed": 61.19587266866222
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.90223300000001,
+                    37.363402
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400052,
+                "traffic_speed": 63.314788164862996
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.875479,
+                    37.255790999999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400057,
+                "traffic_speed": 58.77748292271088
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.93552199999999,
+                    37.335021999999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400059,
+                "traffic_speed": 63.565578709033694
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.907735,
+                    37.250481
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400065,
+                "traffic_speed": 62.06953334868371
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.890281,
+                    37.320291999999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400069,
+                "traffic_speed": 57.726957172461425
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.977493,
+                    37.385758
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400073,
+                "traffic_speed": 63.091361578018265
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.95555900000001,
+                    37.2563
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400084,
+                "traffic_speed": 61.35359582469875
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.01205300000001,
+                    37.329258
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400085,
+                "traffic_speed": 63.73291311689309
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.87471000000001,
+                    37.255594
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400088,
+                "traffic_speed": 64.1956289815028
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.91268500000001,
+                    37.414988
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400096,
+                "traffic_speed": 65.447603423133
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.97254699999999,
+                    37.417981
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400097,
+                "traffic_speed": 62.52140609409778
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.01061399999999,
+                    37.279012
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400100,
+                "traffic_speed": 66.06461547317521
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.938872,
+                    37.295052
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400104,
+                "traffic_speed": 58.08159490367641
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.95548000000001,
+                    37.419313
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400109,
+                "traffic_speed": 65.02932880497352
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.889426,
+                    37.362706
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400122,
+                "traffic_speed": 59.17068270780567
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.901132,
+                    37.36614
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400147,
+                "traffic_speed": 61.721292885102464
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.926305,
+                    37.342209999999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400148,
+                "traffic_speed": 60.88123033233556
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.912479,
+                    37.250664
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400149,
+                "traffic_speed": 66.12996392662521
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.077964,
+                    37.4118
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400158,
+                "traffic_speed": 59.07415764832297
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.93678,
+                    37.421059
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400160,
+                "traffic_speed": 67.62094174533732
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.86058899999999,
+                    37.348392
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400168,
+                "traffic_speed": 63.79537570036073
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.995524,
+                    37.391166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400172,
+                "traffic_speed": 56.001890014582855
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.93971200000001,
+                    37.376264
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400174,
+                "traffic_speed": 67.3532446849336
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.06976,
+                    37.403686
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400178,
+                "traffic_speed": 62.28081011589531
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.863698,
+                    37.276874
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400185,
+                "traffic_speed": 62.65261915726456
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.034527,
+                    37.303131
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400201,
+                "traffic_speed": 65.89548699055952
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.96283100000001,
+                    37.419185999999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400206,
+                "traffic_speed": 61.41195026479392
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.96211000000001,
+                    37.381356
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400209,
+                "traffic_speed": 62.33314912886638
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.049031,
+                    37.319961
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400213,
+                "traffic_speed": 65.71790620922557
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.967128,
+                    37.259192
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400221,
+                "traffic_speed": 63.7482193568194
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.937899,
+                    37.293614
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400222,
+                "traffic_speed": 60.72235781717706
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.00470200000001,
+                    37.275395
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400227,
+                "traffic_speed": 64.05594251285594
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.94358600000001,
+                    37.377237
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400236,
+                "traffic_speed": 62.68119771279453
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.89298400000001,
+                    37.325009
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400238,
+                "traffic_speed": 60.16754547547779
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.912324,
+                    37.413256
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400240,
+                "traffic_speed": 65.16243763911275
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.95385300000001,
+                    37.258184
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400246,
+                "traffic_speed": 63.31522565047202
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.97946200000001,
+                    37.386551000000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400253,
+                "traffic_speed": 61.5731445237547
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.925721,
+                    37.342957
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400257,
+                "traffic_speed": 60.747192800675414
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.871799,
+                    37.291715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400258,
+                "traffic_speed": 60.55835060250211
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.886197,
+                    37.313462
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400268,
+                "traffic_speed": 65.58554570573337
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.858078,
+                    37.255651
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400274,
+                "traffic_speed": 63.0349815795533
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.997252,
+                    37.409627
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400278,
+                "traffic_speed": 63.42988909356052
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.948692,
+                    37.266560999999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400280,
+                "traffic_speed": 65.50698441937217
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.858479,
+                    37.26198
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400292,
+                "traffic_speed": 60.42557180136618
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.972052,
+                    37.316378
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400296,
+                "traffic_speed": 61.88843541330878
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.93915,
+                    37.420359000000005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400298,
+                "traffic_speed": 63.13250057563896
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.93786100000001,
+                    37.293046999999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400330,
+                "traffic_speed": 63.77151162790698
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.026802,
+                    37.398628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400336,
+                "traffic_speed": 64.0704428582393
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.92820900000001,
+                    37.250624
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400343,
+                "traffic_speed": 59.94809079745184
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.917833,
+                    37.348907000000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400353,
+                "traffic_speed": 62.91198288433495
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.967496,
+                    37.383125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400372,
+                "traffic_speed": 56.57380650855783
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.974251,
+                    37.38482
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400394,
+                "traffic_speed": 63.55059674572108
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.90269199999999,
+                    37.364382
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400400,
+                "traffic_speed": 61.31939711413002
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.85454299999999,
+                    37.34241
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400414,
+                "traffic_speed": 63.04391933379385
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.977301,
+                    37.317941999999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400418,
+                "traffic_speed": 62.31079898687543
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.87183600000002,
+                    37.291828
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400429,
+                "traffic_speed": 60.508836058024414
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.993175,
+                    37.319424
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400435,
+                "traffic_speed": 61.27526095632819
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.047463,
+                    37.403153
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400436,
+                "traffic_speed": 66.05587535497736
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.94703700000001,
+                    37.271687
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400440,
+                "traffic_speed": 63.56853749328421
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.865827,
+                    37.353727
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400449,
+                "traffic_speed": 60.54945314298871
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.95549799999999,
+                    37.419452
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400457,
+                "traffic_speed": 65.92607836365033
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.86366100000001,
+                    37.276763
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400461,
+                "traffic_speed": 56.795640494281976
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.87891699999999,
+                    37.254781
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400464,
+                "traffic_speed": 60.35183820707652
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.96221100000001,
+                    37.258029
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400479,
+                "traffic_speed": 60.67335367257657
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.90321100000001,
+                    37.362439
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400485,
+                "traffic_speed": 61.72253242766137
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.94921599999999,
+                    37.254231
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400499,
+                "traffic_speed": 64.9201435259805
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.014931,
+                    37.331068
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400507,
+                "traffic_speed": 62.72181671655538
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.02980600000001,
+                    37.298931
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400508,
+                "traffic_speed": 60.31629442013969
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.919969,
+                    37.34766
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400514,
+                "traffic_speed": 61.26488410468954
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.93628799999999,
+                    37.334602000000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400519,
+                "traffic_speed": 60.59698173305702
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.85256000000001,
+                    37.255257
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400528,
+                "traffic_speed": 63.825873052421514
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.06882900000001,
+                    37.388892999999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400545,
+                "traffic_speed": 66.08108066620616
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.03362800000001,
+                    37.40013
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400560,
+                "traffic_speed": 63.28390705349604
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.00289099999999,
+                    37.324839000000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400563,
+                "traffic_speed": 65.51530432112979
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.89306200000001,
+                    37.325124
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400567,
+                "traffic_speed": 62.024207537032765
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.96282099999999,
+                    37.418931
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400581,
+                "traffic_speed": 59.63595632819096
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.02906899999999,
+                    37.402668
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400582,
+                "traffic_speed": 60.68387635275156
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.004898,
+                    37.275211999999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400586,
+                "traffic_speed": 56.63316256044209
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.94253700000002,
+                    37.376835
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400637,
+                "traffic_speed": 59.681836672039296
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.85576499999999,
+                    37.255322
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400643,
+                "traffic_speed": 61.457740425205316
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.99491200000001,
+                    37.390763
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400648,
+                "traffic_speed": 62.487172845191495
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.034801,
+                    37.303016
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400649,
+                "traffic_speed": 63.78281525827002
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.958118,
+                    37.251740999999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400654,
+                "traffic_speed": 61.18579323048584
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.874117,
+                    37.297486
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400664,
+                "traffic_speed": 56.71765292808351
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.878143,
+                    37.303458
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400665,
+                "traffic_speed": 63.992056182362425
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.849299,
+                    37.341439
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400668,
+                "traffic_speed": 60.755733364034064
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.86696699999999,
+                    37.35512
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400673,
+                "traffic_speed": 62.99304628137232
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.013423,
+                    37.329972
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400677,
+                "traffic_speed": 67.32026632895848
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.04875700000001,
+                    37.320009999999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400687,
+                "traffic_speed": 62.78352713178294
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.00098899999999,
+                    37.408833
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400688,
+                "traffic_speed": 62.410940977818704
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.966974,
+                    37.259412
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400690,
+                "traffic_speed": 63.88835098626142
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.87681699999999,
+                    37.255184
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400700,
+                "traffic_speed": 60.27928275385678
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.93408899999999,
+                    37.251345
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400709,
+                "traffic_speed": 61.083398572415376
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.927699,
+                    37.341275
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400713,
+                "traffic_speed": 60.974301558062784
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.934046,
+                    37.251585
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400714,
+                "traffic_speed": 62.88672000921022
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.95351200000002,
+                    37.316788
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400715,
+                "traffic_speed": 64.37539527208534
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.95535500000001,
+                    37.256205
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400717,
+                "traffic_speed": 61.68360964003377
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.91246699999999,
+                    37.250424
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400723,
+                "traffic_speed": 64.28522910430577
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.936706,
+                    37.334296
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400743,
+                "traffic_speed": 64.3243399339934
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.028373,
+                    37.398989
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400750,
+                "traffic_speed": 58.09155153887482
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.90776299999999,
+                    37.250746
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400760,
+                "traffic_speed": 64.02710108220126
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.931055,
+                    37.374628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400772,
+                "traffic_speed": 60.90726264486914
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.928226,
+                    37.250448
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400790,
+                "traffic_speed": 65.25082892010131
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.998077,
+                    37.391921999999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400792,
+                "traffic_speed": 64.1259152659452
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.95554299999999,
+                    37.255491
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400794,
+                "traffic_speed": 64.12846534653465
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.99371599999999,
+                    37.390421999999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400799,
+                "traffic_speed": 64.53530969376007
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.87613700000001,
+                    37.327927
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400804,
+                "traffic_speed": 65.66542328651468
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.848437,
+                    37.336089
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400822,
+                "traffic_speed": 63.65598856397268
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.955375,
+                    37.255715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400823,
+                "traffic_speed": 60.82783598127254
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.030111,
+                    37.334249
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400828,
+                "traffic_speed": 61.81941630209531
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.03007099999999,
+                    37.298804
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400832,
+                "traffic_speed": 61.4805664287359
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.956775,
+                    37.254601
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400837,
+                "traffic_speed": 59.60720891856627
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.87806599999999,
+                    37.303359
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400842,
+                "traffic_speed": 66.6970795916801
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.859205,
+                    37.261849
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400863,
+                "traffic_speed": 63.08068155652774
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.91655,
+                    37.371809000000006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400869,
+                "traffic_speed": 65.71354670350756
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.069953,
+                    37.403673
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400873,
+                "traffic_speed": 61.368754317292186
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.93673999999999,
+                    37.420927
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400895,
+                "traffic_speed": 55.75997006677412
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.96074099999998,
+                    37.380958
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400904,
+                "traffic_speed": 64.66856435643565
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.01051799999999,
+                    37.395067
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400907,
+                "traffic_speed": 63.791896922250366
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.96236999999999,
+                    37.257815
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400911,
+                "traffic_speed": 64.59306546933763
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.922087,
+                    37.372673999999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400916,
+                "traffic_speed": 65.57359927853251
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.89031000000001,
+                    37.320403999999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400922,
+                "traffic_speed": 60.533918566275226
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.89953500000001,
+                    37.363644
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400934,
+                "traffic_speed": 62.4127081894236
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.94936499999999,
+                    37.254002
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400951,
+                "traffic_speed": 62.186013892086876
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.940679,
+                    37.325151
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400952,
+                "traffic_speed": 64.23028244684933
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.01035,
+                    37.279234
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400953,
+                "traffic_speed": 63.48478394351063
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.88076000000001,
+                    37.327241
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400964,
+                "traffic_speed": 62.096116355821614
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.94075,
+                    37.376684999999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400965,
+                "traffic_speed": 60.722891242612626
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.893592,
+                    37.363310999999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400970,
+                "traffic_speed": 53.94406132473713
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.996301,
+                    37.409675
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400971,
+                "traffic_speed": 54.77401181978663
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.90133600000001,
+                    37.368669
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400973,
+                "traffic_speed": 58.44023908204774
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.972451,
+                    37.417735
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400995,
+                "traffic_speed": 64.04516847033541
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.88610600000001,
+                    37.313375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 400996,
+                "traffic_speed": 63.429234783943514
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.862378,
+                    37.350928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401014,
+                "traffic_speed": 58.63860042981042
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.9392,
+                    37.420505
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401129,
+                "traffic_speed": 64.40223731675493
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.859225,
+                    37.266721999999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401154,
+                "traffic_speed": 65.0615377235398
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.85921,
+                    37.266658
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401163,
+                "traffic_speed": 63.2588667587689
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.92318600000002,
+                    37.316756
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401167,
+                "traffic_speed": 66.25284173766212
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.923208,
+                    37.316984000000005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401210,
+                "traffic_speed": 65.32478509478855
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.02339099999999,
+                    37.291198
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401224,
+                "traffic_speed": 62.22241154347992
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.02363799999999,
+                    37.291053999999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401327,
+                "traffic_speed": 59.46023486069537
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.914498,
+                    37.315095
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401351,
+                "traffic_speed": 62.45244070918721
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.03287900000001,
+                    37.401701
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401388,
+                "traffic_speed": 62.510737585386444
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.95243799999999,
+                    37.316628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401391,
+                "traffic_speed": 66.69972944968914
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.85467,
+                    37.337881
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401400,
+                "traffic_speed": 59.59451224192187
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.952427,
+                    37.316841
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401403,
+                "traffic_speed": 65.33428889400568
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.854583,
+                    37.338232
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401440,
+                "traffic_speed": 60.45585041062246
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.908804,
+                    37.356826
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401457,
+                "traffic_speed": 58.53001957172462
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.86478400000001,
+                    37.279515
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401464,
+                "traffic_speed": 64.94268171003148
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.916049,
+                    37.424833
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401489,
+                "traffic_speed": 65.02609755161562
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.91696200000001,
+                    37.427486
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401495,
+                "traffic_speed": 64.06007560058332
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.85898,
+                    37.255346
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401507,
+                "traffic_speed": 66.69009325351139
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.07953899999998,
+                    37.412677
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401534,
+                "traffic_speed": 64.23267518612326
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.065278,
+                    37.407511
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401541,
+                "traffic_speed": 61.300320439020645
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.90151399999999,
+                    37.370203000000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401555,
+                "traffic_speed": 59.94521068385909
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.858984,
+                    37.255657
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401560,
+                "traffic_speed": 63.8018861769898
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.90788400000001,
+                    37.357526
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401567,
+                "traffic_speed": 60.54255698825697
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.86483799999999,
+                    37.279628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401597,
+                "traffic_speed": 58.332521682400795
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.869623,
+                    37.2874
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401606,
+                "traffic_speed": 60.00160603269629
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.869548,
+                    37.287298
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401611,
+                "traffic_speed": 66.01293076982117
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.940307,
+                    37.318919
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401655,
+                "traffic_speed": 65.8605418681403
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.858919,
+                    37.335596
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401808,
+                "traffic_speed": 63.351901527362045
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.86006599999999,
+                    37.334883000000005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401809,
+                "traffic_speed": 59.870241384603574
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.860098,
+                    37.334524
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401810,
+                "traffic_speed": 63.99716401872744
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.88398899999999,
+                    37.32592
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401811,
+                "traffic_speed": 58.36685278993014
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.883953,
+                    37.325651
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401816,
+                "traffic_speed": 64.62240770588687
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.92688500000001,
+                    37.371159999999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401817,
+                "traffic_speed": 62.19262606493207
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.92691699999999,
+                    37.371274
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401845,
+                "traffic_speed": 67.20682132166706
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.06062800000001,
+                    37.332668
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401846,
+                "traffic_speed": 65.62140417530125
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.060617,
+                    37.332482
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401890,
+                "traffic_speed": 62.446532734668814
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.855539,
+                    37.343447
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401891,
+                "traffic_speed": 65.67982001688542
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.855795,
+                    37.343293
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401906,
+                "traffic_speed": 59.17661178908588
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.848031,
+                    37.335259
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401908,
+                "traffic_speed": 66.23403753166015
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.84766200000001,
+                    37.335284
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401926,
+                "traffic_speed": 64.41431997850948
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.078452,
+                    37.411999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401936,
+                "traffic_speed": 65.43216478624606
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.06515,
+                    37.407282
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401937,
+                "traffic_speed": 64.64640801289431
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.076826,
+                    37.411338
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401942,
+                "traffic_speed": 65.4467802594213
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.89785800000001,
+                    37.322594
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401943,
+                "traffic_speed": 60.77609563281909
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.8978,
+                    37.322361
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401948,
+                "traffic_speed": 59.73263681019265
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.07172800000001,
+                    37.409514
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401957,
+                "traffic_speed": 63.519752091488215
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.861079,
+                    37.270311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401958,
+                "traffic_speed": 64.418088494896
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.860998,
+                    37.270209
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401994,
+                "traffic_speed": 63.48468608488755
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.975872,
+                    37.385523
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401996,
+                "traffic_speed": 63.093633433110746
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.015716,
+                    37.396411
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401997,
+                "traffic_speed": 64.7816371172001
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.02569299999999,
+                    37.398596999999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 401998,
+                "traffic_speed": 65.16817867833295
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.05107,
+                    37.404178
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402056,
+                "traffic_speed": 66.27351101389208
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.89564299999999,
+                    37.328953999999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402057,
+                "traffic_speed": 63.99715634354133
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.89756299999999,
+                    37.336401
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402058,
+                "traffic_speed": 62.785317368946195
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.897741,
+                    37.337137
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402059,
+                "traffic_speed": 66.8036054186814
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.897848,
+                    37.337478999999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402060,
+                "traffic_speed": 62.1211700821245
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.062397,
+                    37.356654999999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402061,
+                "traffic_speed": 61.719815411773745
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.06262,
+                    37.356615999999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402067,
+                "traffic_speed": 62.51677603806892
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.899571,
+                    37.321366999999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402117,
+                "traffic_speed": 62.07594404789315
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.902123,
+                    37.344302
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402118,
+                "traffic_speed": 63.042829457364334
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.902181,
+                    37.344411
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402119,
+                "traffic_speed": 64.84111021567274
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.91503600000001,
+                    37.421182
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402120,
+                "traffic_speed": 61.71447156343542
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.908515,
+                    37.399227
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402121,
+                "traffic_speed": 59.41991327039681
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.90406100000001,
+                    37.380274
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402281,
+                "traffic_speed": 61.94644830762146
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.904845,
+                    37.38449
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402282,
+                "traffic_speed": 58.986480159643875
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.90504399999999,
+                    37.384485
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402283,
+                "traffic_speed": 62.65335789392893
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.90650600000001,
+                    37.391595
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402284,
+                "traffic_speed": 59.8731944124645
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.90671,
+                    37.391557
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402285,
+                "traffic_speed": 63.96991902678639
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.908172,
+                    37.398697999999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402286,
+                "traffic_speed": 63.448651086038836
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.909842,
+                    37.405823999999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402287,
+                "traffic_speed": 59.79648476475555
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.910072,
+                    37.405777
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402288,
+                "traffic_speed": 64.36517000537262
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.914103,
+                    37.419153
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402289,
+                "traffic_speed": 60.80237355130861
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.914308,
+                    37.419106
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402359,
+                "traffic_speed": 63.4018305318904
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.842102,
+                    37.329728
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402360,
+                "traffic_speed": 65.37180904136926
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.84236100000001,
+                    37.329591
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402361,
+                "traffic_speed": 64.88058177910814
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.848881,
+                    37.336549
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402362,
+                "traffic_speed": 59.69994819249366
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.871981,
+                    37.358996000000005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402363,
+                "traffic_speed": 62.16318980735282
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.87209399999999,
+                    37.3588
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402364,
+                "traffic_speed": 63.5966190805127
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.90788,
+                    37.368103999999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402365,
+                "traffic_speed": 62.44945314298872
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.90797099999999,
+                    37.367859
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402366,
+                "traffic_speed": 62.29876237623762
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.986478,
+                    37.388542
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402367,
+                "traffic_speed": 61.56769130401412
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.986538,
+                    37.388372
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402368,
+                "traffic_speed": 64.37487335942896
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.005269,
+                    37.393954
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402369,
+                "traffic_speed": 61.48123416992862
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.005329,
+                    37.393755
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402370,
+                "traffic_speed": 63.22814874510707
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.013438,
+                    37.395920000000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402371,
+                "traffic_speed": 61.74053841430654
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.017518,
+                    37.396611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402372,
+                "traffic_speed": 61.852542405403334
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.055924,
+                    37.40547
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 402373,
+                "traffic_speed": 60.77459321513546
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.056343,
+                    37.405335
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 403225,
+                "traffic_speed": 62.23140302402333
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.91728,
+                    37.349517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 403265,
+                "traffic_speed": 61.422816409547934
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.917686,
+                    37.349229
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 403329,
+                "traffic_speed": 66.79401911121344
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.947353,
+                    37.270267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 403401,
+                "traffic_speed": 61.837848261570336
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.870843,
+                    37.328484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 403402,
+                "traffic_speed": 66.60258078133396
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.870796,
+                    37.328720000000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 403404,
+                "traffic_speed": 59.9626218435797
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.874899,
+                    37.327807
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 403406,
+                "traffic_speed": 61.39254547547778
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.88331399999998,
+                    37.32592
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 403409,
+                "traffic_speed": 65.45055069460435
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.89067299999999,
+                    37.324015
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 403412,
+                "traffic_speed": 63.392196254509166
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.89764,
+                    37.32243
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 403414,
+                "traffic_speed": 58.579054417069614
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.913648,
+                    37.314844
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 403419,
+                "traffic_speed": 61.88736664364111
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.921548,
+                    37.316765999999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 404370,
+                "traffic_speed": 66.76862192033157
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.939132,
+                    37.296028
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 404434,
+                "traffic_speed": 62.51903446158569
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.98154,
+                    37.265521
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 404435,
+                "traffic_speed": 64.62644869138077
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.050852,
+                    37.326592
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 404444,
+                "traffic_speed": 63.0204294266636
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.98169399999999,
+                    37.265311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 404451,
+                "traffic_speed": 59.447536265254435
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.862544,
+                    37.27263
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 404452,
+                "traffic_speed": 65.82121805203775
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.867709,
+                    37.284773
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 404453,
+                "traffic_speed": 60.16035190728374
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.88259599999999,
+                    37.309111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 404461,
+                "traffic_speed": 60.88360388364418
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.88251799999999,
+                    37.309012
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 404462,
+                "traffic_speed": 65.38517537800293
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.86255600000001,
+                    37.272658
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 404521,
+                "traffic_speed": 63.87503837593062
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.965617,
+                    37.382585999999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 404522,
+                "traffic_speed": 62.18959052882032
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.041627,
+                    37.402071
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 404553,
+                "traffic_speed": 64.72917338245453
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.01348899999999,
+                    37.395734000000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 404554,
+                "traffic_speed": 60.75147747332873
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.041683,
+                    37.401893
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 404585,
+                "traffic_speed": 62.024508788088106
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.011605,
+                    37.406298
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 404586,
+                "traffic_speed": 60.290910660833525
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.01162099999999,
+                    37.406475
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 404640,
+                "traffic_speed": 62.50491979430501
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.049627,
+                    37.333614000000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 404753,
+                "traffic_speed": 68.02615511551156
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.90298899999999,
+                    37.364689
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 404759,
+                "traffic_speed": 61.17036610637808
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.901551,
+                    37.365167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 405613,
+                "traffic_speed": 64.12696484764756
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.85853300000001,
+                    37.262704
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 405619,
+                "traffic_speed": 61.344468109601664
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.867631,
+                    37.284665000000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 405701,
+                "traffic_speed": 64.72202586537723
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.924481,
+                    37.316969
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407150,
+                "traffic_speed": 65.86700053726304
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.88443600000001,
+                    37.427274
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407151,
+                "traffic_speed": 65.85753127638345
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.882093,
+                    37.420741
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407152,
+                "traffic_speed": 66.93843349451224
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.880751,
+                    37.416073
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407153,
+                "traffic_speed": 65.84634277381225
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.87521100000001,
+                    37.398059
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407155,
+                "traffic_speed": 65.97357241538106
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.87037600000001,
+                    37.391513
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407157,
+                "traffic_speed": 65.23596975976666
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.86383899999998,
+                    37.385475
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407161,
+                "traffic_speed": 64.48926817100315
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.878234,
+                    37.40777
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407165,
+                "traffic_speed": 64.71291541944892
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.845368,
+                    37.344023
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407172,
+                "traffic_speed": 65.90137193951954
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.84836899999999,
+                    37.341738
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407173,
+                "traffic_speed": 66.46375201473636
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.847982,
+                    37.342007
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407174,
+                "traffic_speed": 61.856583390897235
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.876103,
+                    37.40088
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407176,
+                "traffic_speed": 63.6261340087497
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.840267,
+                    37.358523
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407177,
+                "traffic_speed": 63.06308811113669
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.84128500000001,
+                    37.360223
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407179,
+                "traffic_speed": 64.66357932304858
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.84660900000002,
+                    37.368611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407180,
+                "traffic_speed": 64.63192109908665
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.850839,
+                    37.372785
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407181,
+                "traffic_speed": 62.70778071993245
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.85778300000001,
+                    37.379684000000005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407184,
+                "traffic_speed": 60.405315066390365
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.884848,
+                    37.427403000000005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407185,
+                "traffic_speed": 59.56462698595441
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.882423,
+                    37.420881
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407186,
+                "traffic_speed": 60.903127638345225
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.870798,
+                    37.391614000000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407187,
+                "traffic_speed": 61.88655307391205
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.861675,
+                    37.383139
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407190,
+                "traffic_speed": 62.02017038913194
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.880023,
+                    37.412704
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407191,
+                "traffic_speed": 60.29311535804743
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.878542,
+                    37.407919
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407194,
+                "traffic_speed": 63.072208151047654
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.845564,
+                    37.344190999999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407200,
+                "traffic_speed": 61.75646442551232
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.875543,
+                    37.398207
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407202,
+                "traffic_speed": 62.768121114437015
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.841794,
+                    37.360613
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407204,
+                "traffic_speed": 61.53293422365492
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.84510300000001,
+                    37.366096999999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407206,
+                "traffic_speed": 62.663251208841814
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.851246,
+                    37.372896999999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407207,
+                "traffic_speed": 60.97648898610791
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.85818799999998,
+                    37.379794
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407321,
+                "traffic_speed": 63.906309002993325
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.056851,
+                    37.333648
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407323,
+                "traffic_speed": 64.58039373704813
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.068661,
+                    37.396419
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407325,
+                "traffic_speed": 63.82212372400031
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.06810800000001,
+                    37.383707
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407328,
+                "traffic_speed": 61.47935758692149
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.06754199999999,
+                    37.377217
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407331,
+                "traffic_speed": 62.16842620308542
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.05833700000001,
+                    37.335431
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407332,
+                "traffic_speed": 63.09209263949651
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.069566,
+                    37.407311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407335,
+                "traffic_speed": 58.327507867065776
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.06736799999999,
+                    37.373213
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407336,
+                "traffic_speed": 58.216438329879495
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.062707,
+                    37.363146
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407337,
+                "traffic_speed": 62.34232289508021
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.0609,
+                    37.353092
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407339,
+                "traffic_speed": 56.66953718627678
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.06028500000001,
+                    37.351571
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407341,
+                "traffic_speed": 63.32317522449919
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.059766,
+                    37.344713
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407342,
+                "traffic_speed": 61.625316601427585
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.067604,
+                    37.379094
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407344,
+                "traffic_speed": 65.70343848338322
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.05468700000002,
+                    37.331501
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407348,
+                "traffic_speed": 61.72734860695372
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.06841200000001,
+                    37.384273
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407352,
+                "traffic_speed": 61.41551538874818
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.067805,
+                    37.377057
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407359,
+                "traffic_speed": 61.75946734208304
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.07005500000001,
+                    37.407146999999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407360,
+                "traffic_speed": 57.877924245912965
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.067646,
+                    37.373187
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407361,
+                "traffic_speed": 58.03963657993706
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.063006,
+                    37.363107
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407364,
+                "traffic_speed": 59.94953181364648
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.06051799999999,
+                    37.351529
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407367,
+                "traffic_speed": 60.57490789776652
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.067871,
+                    37.379368
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407370,
+                "traffic_speed": 65.6657168623839
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.05700700000001,
+                    37.333574
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407372,
+                "traffic_speed": 58.21036725765601
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.059991,
+                    37.344708000000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407373,
+                "traffic_speed": 56.053747409624684
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.05971699999999,
+                    37.337629
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407374,
+                "traffic_speed": 65.06745529204082
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.06861200000002,
+                    37.395123
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407710,
+                "traffic_speed": 58.60748138767365
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.93879299999999,
+                    37.317459
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 407711,
+                "traffic_speed": 63.65972254202165
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.941507,
+                    37.317112
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 408907,
+                "traffic_speed": 65.16600468186353
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.940425,
+                    37.321822
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 408911,
+                "traffic_speed": 61.175761762222734
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.940859,
+                    37.325153
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 409524,
+                "traffic_speed": 64.53602540486605
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.907247,
+                    37.348448
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 409525,
+                "traffic_speed": 65.79582661754549
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.917493,
+                    37.362565999999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 409526,
+                "traffic_speed": 63.61540985493899
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.921627,
+                    37.366737
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 409528,
+                "traffic_speed": 63.81568040524983
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.917418,
+                    37.362466999999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 409529,
+                "traffic_speed": 60.647716632128336
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.92151899999999,
+                    37.366662
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 413026,
+                "traffic_speed": 66.14872783790007
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.91480800000001,
+                    37.421232
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 413845,
+                "traffic_speed": 57.20308158722849
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.925747,
+                    37.422887
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 413877,
+                "traffic_speed": 67.56619848031315
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.89964199999999,
+                    37.321613
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 413878,
+                "traffic_speed": 64.60436142451454
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.888603,
+                    37.324641
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 414284,
+                "traffic_speed": 67.3516501650165
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.89653799999999,
+                    37.323066
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "geo_id": 414694,
+                "traffic_speed": 64.32824468493361
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.91349699999999,
+                    37.315051000000004
+                ]
+            }
+        }
+    ]
+}
